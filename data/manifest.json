@@ -1,0 +1,391 @@
+{
+  "schema": 1,
+  "project": {
+    "code": "NKP",
+    "name": "NakedPak",
+    "subtitle": "US consumer brand, name to come",
+    "scope": "Brand naming, identity and packaging",
+    "studio": "ø co.",
+    "client_site": "https://www.nakedpak.com",
+    "intro": "Name, visual identity and master outer box for a DTC soup and stew launch. Chef-crafted broths in a seaweed pouch that dissolves in boiling water in two minutes. Food first, magic second.",
+    "sprint": {
+      "start": "2026-11-13",
+      "end": "2026-12-18",
+      "week1_monday": "2026-11-09",
+      "weeks": 6
+    },
+    "brief_source": {
+      "title": "[INT] NakedPak – Creative Brief (Naming, Identity & Packaging)",
+      "date": "2026-11-12",
+      "url": "https://docs.google.com/document/d/1713PL9BpD0p5ZK2rTaSbG3Tz165FPtIJ0cLykfQHicw/edit",
+      "mirror": "00-brief/brief-2026-11-12.md"
+    }
+  },
+  "brief": [
+    {
+      "label": "Assignment",
+      "headline": "Name, identity and master box for the US direct-to-consumer launch.",
+      "body": "Create the consumer brand name, visual identity and master outer-box packaging for the DTC soup and stew launch (late March). “NakedPak” is the B2B seaweed-film name; “Deserved” was an investor placeholder.",
+      "list": [
+        "3 naming territories",
+        "Visual identity + guidelines",
+        "Master outer box for 1 hero SKU, 6 dissolvable pouches per box, built on FPO dimensions and panels"
+      ]
+    },
+    {
+      "label": "Opportunity",
+      "headline": "Culinary comfort without plastic or prep.",
+      "body": "Chef-crafted bone-broth and plant-based soups. The seaweed pouch dissolves in boiling water in two minutes, thickening the broth with zero waste and zero plastic contact. Proving people love the “drop, cook, dissolve” ritual in DTC creates a category of one and unlocks B2B food partners."
+    },
+    {
+      "label": "Audience",
+      "headline": "Busy households and working professionals.",
+      "body": "Want a nourishing, cozy meal in minutes without giving up flavor, clean ingredients or easy prep. Secondary: campers, travelers and students who want lightweight, packable real meals with zero trash left behind."
+    },
+    {
+      "label": "Tension",
+      "headline": "Effortless, waste-free comfort food, but “eating the wrapper” sounds like a science experiment.",
+      "body": "Lead with tech and shoppers hesitate. Hide the pouch and they miss the magic of the one-step ritual."
+    },
+    {
+      "label": "Lens",
+      "headline": "Food first, magic second.",
+      "body": "Sell the steaming bowl and chef-crafted broth before explaining the film. Frame the seaweed pouch as natural as an apple or tomato skin: part of the recipe that locks in flavor and melts into the broth."
+    },
+    {
+      "label": "Desired response",
+      "quote": "That looks delicious. Wait, I just drop the whole pouch in boiling water and it melts into the broth? I want to try that.",
+      "body": "Craving before curiosity. Warm, culinary, effortless and naturally smart; never clinical or gimmicky."
+    },
+    {
+      "label": "Naming",
+      "headline": "Culinary warmth, nourishment or the effortless ritual, not packaging tech.",
+      "body": "Warm, appetizing and extensible beyond soup: ramen, oats, sauces."
+    },
+    {
+      "label": "Box hierarchy",
+      "headline": "Read in three seconds.",
+      "steps": [
+        "Appetizing, food-first brand and flavor call",
+        "Foolproof “drop, cook, dissolve” ritual",
+        "Clean-ingredient and zero-plastic trust cues"
+      ]
+    },
+    {
+      "label": "Identity and packaging",
+      "headline": "A rich, tactile culinary world on the outer cardboard box.",
+      "body": "6 pouches inside; the inner pouch is unprinted clear film. Custom iconography makes the 3-step prep unmistakable at a glance. Flavor system: master architecture for 1 hero SKU that flexes across bone-broth and vegan/legume varieties."
+    },
+    {
+      "label": "Guardrails",
+      "headline": "The work should not:",
+      "list": [
+        "Lead with “edible packaging” or lab-tech language that makes the meal feel synthetic or experimental",
+        "Look like eco-austerity (beige craft-paper clichés) or cheap college instant noodles",
+        "Overcomplicate the prep story; the ritual must read in three seconds",
+        "Wait on final recipes or exact box dimensions; build on FPO dimensions and nutrition panels to hit Dec 18"
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "week": 1,
+      "date": "2026-11-13",
+      "label": "Kickoff"
+    },
+    {
+      "week": 2,
+      "label": "Naming and brief lock"
+    },
+    {
+      "week": 3,
+      "label": "2 identity directions"
+    },
+    {
+      "week": 5,
+      "label": "Hero box design"
+    },
+    {
+      "week": 6,
+      "date": "2026-12-18",
+      "label": "Final handoff"
+    }
+  ],
+  "calendar_notes": [
+    {
+      "date": "2026-11-26",
+      "week": 3,
+      "label": "Thanksgiving"
+    }
+  ],
+  "sections": [
+    {
+      "id": "brief",
+      "num": "00",
+      "title": "Brief",
+      "folder": "00-brief/",
+      "description": "The frame. The Google Doc is the source of truth; the folder holds dated mirrors and the locked version.",
+      "expected": [
+        {
+          "label": "Locked creative brief",
+          "due": "Wk 2"
+        }
+      ]
+    },
+    {
+      "id": "inputs",
+      "num": "01",
+      "title": "Inputs",
+      "folder": "01-inputs/",
+      "description": "Material from the team and client: strategy, chef, dimensions, FPO panels."
+    },
+    {
+      "id": "references",
+      "num": "02",
+      "title": "References",
+      "folder": "02-references/",
+      "description": "Outside work worth keeping: case studies, packaging, type, photography. One folder per reference."
+    },
+    {
+      "id": "notes",
+      "num": "03",
+      "title": "Notes",
+      "folder": "03-notes/",
+      "description": "Loose ideas to come back to."
+    },
+    {
+      "id": "naming",
+      "num": "04",
+      "title": "Naming",
+      "folder": "04-naming/",
+      "description": "Territories, candidates, screening. One folder per round.",
+      "expected": [
+        {
+          "label": "3 naming territories + candidates",
+          "due": "Wk 2"
+        },
+        {
+          "label": "Core brand idea",
+          "due": "Wk 2"
+        },
+        {
+          "label": "3-second on-pack messaging hierarchy",
+          "due": "Wk 2"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "num": "05",
+      "title": "Identity",
+      "folder": "05-identity/",
+      "description": "Identity directions, type, color, iconography, guidelines. One folder per round.",
+      "expected": [
+        {
+          "label": "2 identity directions",
+          "due": "Wk 3"
+        },
+        {
+          "label": "3-step prep iconography",
+          "due": "Undated"
+        },
+        {
+          "label": "Visual identity guidelines",
+          "due": "Dec 18"
+        }
+      ]
+    },
+    {
+      "id": "packaging",
+      "num": "06",
+      "title": "Packaging",
+      "folder": "06-packaging/",
+      "description": "Master outer box, flavor system, dielines on FPO dimensions. One folder per round.",
+      "expected": [
+        {
+          "label": "Hero box design: 1 SKU, 6 pouches, FPO dimensions and panels",
+          "due": "Wk 5"
+        },
+        {
+          "label": "Flavor system: bone broth and vegan/legume",
+          "due": "With hero box"
+        }
+      ]
+    },
+    {
+      "id": "presentations",
+      "num": "07",
+      "title": "Presentations",
+      "folder": "07-presentations/",
+      "description": "Decks as presented, one dated folder each. Never overwritten."
+    },
+    {
+      "id": "handoff",
+      "num": "08",
+      "title": "Handoff",
+      "folder": "08-handoff/",
+      "description": "Final files as delivered.",
+      "expected": [
+        {
+          "label": "Final handoff",
+          "due": "Dec 18"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "BRF-001",
+      "section": "brief",
+      "kind": "brief",
+      "status": "current",
+      "title": "Creative brief, Nov 12",
+      "date": "2026-11-13",
+      "added_by": "Julia",
+      "source": {
+        "name": "Google Doc (ø co. shared drive)",
+        "url": "https://docs.google.com/document/d/1713PL9BpD0p5ZK2rTaSbG3Tz165FPtIJ0cLykfQHicw/edit"
+      },
+      "files": [
+        {
+          "path": "00-brief/brief-2026-11-12.md",
+          "caption": "Text mirror, Nov 12 version"
+        }
+      ],
+      "note": "Draft. Locks in Wk 2."
+    },
+    {
+      "id": "INP-001",
+      "section": "inputs",
+      "kind": "input",
+      "status": "awaited",
+      "title": "Strategy findings download",
+      "from": "Naama, Rachel, Ira & Kara",
+      "needed_for": "Naming + identity",
+      "files": []
+    },
+    {
+      "id": "INP-002",
+      "section": "inputs",
+      "kind": "input",
+      "status": "awaited",
+      "title": "Target SKU flavor profiles",
+      "from": "Chef, via Naama, Rachel, Ira & Kara",
+      "needed_for": "Naming + identity",
+      "files": []
+    },
+    {
+      "id": "INP-003",
+      "section": "inputs",
+      "kind": "input",
+      "status": "awaited",
+      "title": "Estimated pouch and box dimensions",
+      "from": "Naama, Rachel, Ira & Kara",
+      "needed_for": "Packaging (FPO until confirmed)",
+      "files": []
+    },
+    {
+      "id": "REF-001",
+      "section": "references",
+      "kind": "reference",
+      "status": "new",
+      "title": "A Pinch Of",
+      "tagline": "SKINN case study: ready-to-heat meals renamed and repackaged.",
+      "date": "2026-11-13",
+      "added_by": "Julia",
+      "source": {
+        "name": "skinn.agency",
+        "url": "https://www.skinn.agency/a-pinch-of"
+      },
+      "note": "Nice case study elements and formatting.",
+      "relevance": "Same shelf problem as ours: a ready-to-heat meal line renamed, re-voiced and repackaged to win the fridge aisle. Scope maps almost one-to-one: naming, verbal identity, visual identity, packaging, imagery.",
+      "elements": [
+        {
+          "label": "Opener",
+          "text": "Name, an em dash, then a one-line repositioning: “A Pinch Of — Redefining ready-to-heat meals.” Set at text size above the hero, not as a giant headline.",
+          "fig": 1
+        },
+        {
+          "label": "Side panel",
+          "text": "Sticky accordion beside the images: Expertise tags, then Challenge, Strategy, Branding, Imagery. Each is a small label plus a one-line headline that opens to prose. Branding splits into Naming, Verbal identity, Visual identity.",
+          "fig": 1
+        },
+        {
+          "label": "Before / after",
+          "text": "Old and new pack shot top-down on white with a soft shadow, tiny uppercase captions. The fastest proof of the work.",
+          "fig": 2
+        },
+        {
+          "label": "Image rhythm",
+          "text": "One column of full-width frames alternating with 2-up pairs and a solid color plate carrying only the logotype; pack-in-context, hand-held stack, fridge, social posts.",
+          "fig": 3
+        },
+        {
+          "label": "Related cases",
+          "text": "Four-up cards: bold “Name — tagline.” running straight into a gray description.",
+          "fig": 4
+        },
+        {
+          "label": "Type",
+          "text": "One neutral grotesk (Suisse Int’l) for every line of site text; the serif logotype is the only brand voice on the page."
+        }
+      ],
+      "tags": [
+        "case study",
+        "packaging",
+        "ready-to-heat",
+        "naming",
+        "before/after",
+        "layout"
+      ],
+      "files": [
+        {
+          "path": "02-references/REF-001-skinn-a-pinch-of/01-intro-hero-sidepanel.jpg",
+          "caption": "Opener, hero and side panel (Expertise open)"
+        },
+        {
+          "path": "02-references/REF-001-skinn-a-pinch-of/02-before-after.jpg",
+          "caption": "Before / after pack shots"
+        },
+        {
+          "path": "02-references/REF-001-skinn-a-pinch-of/03-image-sequence.jpg",
+          "caption": "Whole page, image sequence at a glance"
+        },
+        {
+          "path": "02-references/REF-001-skinn-a-pinch-of/04-other-cases.jpg",
+          "caption": "Related cases row"
+        }
+      ],
+      "capture": "Screens captured Nov 13, 2026 at 1440 px wide; cookie banner dismissed (necessary only)."
+    }
+  ],
+  "log": [
+    {
+      "date": "2026-11-13",
+      "type": "Milestone",
+      "text": "Kickoff."
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Setup",
+      "text": "Repository, folder structure and this manifest set up.",
+      "refs": []
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Added",
+      "text": "Brief mirrored from the Nov 12 Google Doc.",
+      "refs": [
+        "BRF-001"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "type": "Added",
+      "text": "SKINN, A Pinch Of: case study elements and formatting.",
+      "refs": [
+        "REF-001"
+      ]
+    }
+  ]
+}
