@@ -27,6 +27,8 @@ The public index holds the brief, references, original input requests and activi
 
 The index and private review record page loads and navigation. The index also records link clicks and expanded records in the **register** Supabase project, under `public.nkdpk_events`. The `view` event counts page loads. The random `pv` groups interactions within one load. The tracker respects Do Not Track and Global Privacy Control and skips local files, frames, automated browsers and the library CMS owner session.
 
+The owner stats viewer at `stats/` offers 7- and 30-day totals, daily counts and the five most-opened boards. Use the separate `NakedPak_Stats.webloc` in the project folder. Its key is independent of the client review link. The `nkdpk-stats` Edge Function checks that key before calling the service-only `nkdpk_stats` aggregate. Board captions in the function’s private `boards.json` follow the catalog’s board order.
+
 ## Private review
 
 The live study includes the deck, client register, sources and searchable reference ledger. Share the private review link saved beside the HTML master in iCloud. Its URL fragment contains the decryption key. The published `review/study.bin` contains the encrypted edition. The browser decrypts it on the viewer’s device. Analytics record page type and board or reference numbers.

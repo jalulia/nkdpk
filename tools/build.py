@@ -89,7 +89,7 @@ def build():
     def project_file(label, path, description, metric):
         view = {'input-register': 'inputs', 'pin-catalog': 'ledger', 'board-study': 'board/1'}[metric]
         review = link('review/index.html?open=' + quote(view, safe='/'), label)
-        return (f'<article class="record" data-metric="{esc(metric)}"><div class="category">Project folder</div><div class="record-main">'
+        return (f'<article class="record" data-metric="{esc(metric)}"><div class="category">Private review</div><div class="record-main">'
                 f'<h3>{review}</h3><p>{esc(description)}</p><details><summary>File location</summary>'
                 f'<code>NkdPk/{esc(path)}</code></details></div></article>')
 
@@ -97,7 +97,7 @@ def build():
         items = grouped[key]
         if key == 'inputs':
             intake = project_file('Client input register', manifest['project']['private_register'],
-                                  'Source documents and receipt status. Opens with the private review link.', 'input-register')
+                                  'Source files, meeting notes and outstanding questions.', 'input-register')
             historical = [i for i in items if i.get('status') == 'requested-at-kickoff']
             new = [i for i in items if i not in historical]
             if historical:
@@ -105,11 +105,11 @@ def build():
             add(key, 'Client inputs', intake + ''.join(record(i) for i in new))
         elif key == 'references':
             catalog = project_file('Pin catalog', manifest['project']['private_catalog'],
-                                   'All 149 pins, plus additional references. Opens in the private review.', 'pin-catalog')
+                                   '149 Pinterest pins and additional brand references.', 'pin-catalog')
             add(key, 'Visual references', catalog + ''.join(record(i) for i in items))
         elif key == 'presentations':
             study = project_file('NakedPak visual reference study', manifest['project']['private_study'],
-                                 'The complete 41-board study. Opens in the private review.', 'board-study')
+                                 '41 boards on the product, visual references and design directions.', 'board-study')
             add(key, 'Presentations', study + ''.join(record(i) for i in items))
         elif items:
             add(key, LABELS.get(key, sections[key]['title']), ''.join(record(i) for i in items))

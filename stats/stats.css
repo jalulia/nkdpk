@@ -1,0 +1,13 @@
+main{max-width:960px;margin:0 auto;padding:22px clamp(20px,5vw,54px) 60px}
+header{display:flex;gap:14px;border-bottom:1px solid #c8c8c2;padding-bottom:15px;font-size:14px}
+header a{font-weight:650;text-decoration:none}header span{color:#65655e}
+.heading,.controls,.endpoints,.legend{display:flex;align-items:center;gap:12px}.heading{justify-content:space-between}
+h1{font-size:clamp(45px,6.5vw,80px);line-height:1;letter-spacing:-.065em;font-weight:530;margin:36px 0 20px}h2{font-size:clamp(21px,3vw,31px);letter-spacing:-.045em;line-height:1.2;font-weight:550}
+.controls{gap:6px}.controls label{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}.controls select,button{background:#fff;border:1px solid #b1b1a9;padding:7px 10px;border-radius:3px;cursor:pointer;font:inherit;color:inherit}button:disabled{cursor:wait;color:#60605a}
+#status,.note,.endpoints,.legend{font-size:13px;color:#55564e}.numbers{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid #bbbdb4;margin:25px 0 31px;padding:18px 0}.numbers div+div{border-left:1px solid #c5c7bf;padding-left:20px}.numbers dt{font-size:14px}.numbers dd{font-size:clamp(36px,5.5vw,63px);line-height:1.08;letter-spacing:-.055em;font-variant-numeric:tabular-nums;margin-top:8px}
+.legend{margin:11px 0}.legend span:before{content:'';width:9px;height:9px;display:inline-block;background:#252720;margin-right:6px}.legend span+span:before{background:#9cae6e}
+#plot{display:flex;gap:clamp(2px,1vw,10px);align-items:stretch;height:98px;border-bottom:1px solid #b7bbab;background:linear-gradient(to top,transparent 49%,#eeeee9 50%,transparent 51%)}.bars{min-width:0;flex:1;display:flex;align-items:end;justify-content:center;gap:2px}.bar{width:min(34%,25px);background:#252720}.bar.study{background:#9cae6e}.endpoints{justify-content:space-between;margin:5px 0 28px}
+.note{margin:4px 0 10px}#boards li{border-top:1px solid #d7d8d1;display:flex;align-items:baseline;gap:15px;padding:8px 0}.board-num{font-variant-numeric:tabular-nums;color:#606157;width:24px}.board-name{flex:1}#boards strong{font-variant-numeric:tabular-nums}#empty{color:#55564e}#access p{margin:12px 0}
+@media(max-width:580px){.heading{display:block}.controls{margin:0 0 12px}.numbers{gap:8px}.numbers dt{font-size:12px}.numbers div+div{padding-left:9px}.numbers dd{font-size:38px}#boards li{gap:8px}}
+
+button.bars{background:transparent;padding:0;border:0;border-radius:0}button.bars:hover,button.bars:focus-visible{background:#f3f4ef}#day-detail{margin:-17px 0 22px}
