@@ -360,6 +360,21 @@
         }
       ],
       "capture": "Screens captured Nov 13, 2026 at 1440 px wide; cookie banner dismissed (necessary only)."
+    },
+    {
+      "id": "REF-003",
+      "section": "references",
+      "kind": "reference",
+      "status": "current",
+      "category": "Naming & character",
+      "title": "Soupapotamus",
+      "source": {
+        "name": "Brand website",
+        "url": "https://soupapotamus.com/pages/about"
+      },
+      "description": "A soup name built around a chef-hippo mascot.",
+      "project_path": "02-references/REF-003-soupapotamus/index.html",
+      "files": []
     }
   ],
   "log": [
@@ -394,6 +409,14 @@
       "date": "2026-11-19",
       "type": "Setup",
       "text": "Reorganized the index and added locations for the project-folder registers and study."
+    },
+    {
+      "date": "2026-11-19",
+      "type": "Added",
+      "text": "Cataloged Soupapotamus.",
+      "refs": [
+        "REF-003"
+      ]
     }
   ]
 }
