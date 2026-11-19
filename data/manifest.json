@@ -7,7 +7,7 @@
     "scope": "Brand naming, identity and packaging",
     "studio": "ø co.",
     "client_site": "https://www.nakedpak.com",
-    "intro": "Name, visual identity and master outer box for a DTC soup and stew launch. Chef-crafted broths in a seaweed pouch that dissolves in boiling water in two minutes. Food first, magic second.",
+    "intro": "Naming, identity and packaging for the US soup and stew launch.",
     "sprint": {
       "start": "2026-11-13",
       "end": "2026-12-18",
@@ -19,7 +19,10 @@
       "date": "2026-11-12",
       "url": "https://docs.google.com/document/d/1713PL9BpD0p5ZK2rTaSbG3Tz165FPtIJ0cLykfQHicw/edit",
       "mirror": "00-brief/brief-2026-11-12.md"
-    }
+    },
+    "private_register": "01-inputs/Naama_input_register.html",
+    "private_study": "07-presentations/2026-11-19-board-study/NakedPak_Board_Study_v01.html",
+    "private_catalog": "02-references/REF-002-nkdpk-board-study-v01/index.html"
   },
   "brief": [
     {
@@ -239,7 +242,7 @@
       "section": "brief",
       "kind": "brief",
       "status": "current",
-      "title": "Creative brief, Nov 12",
+      "title": "Creative brief",
       "date": "2026-11-13",
       "added_by": "Julia",
       "source": {
@@ -258,7 +261,7 @@
       "id": "INP-001",
       "section": "inputs",
       "kind": "input",
-      "status": "awaited",
+      "status": "requested-at-kickoff",
       "title": "Strategy findings download",
       "from": "Naama, Rachel, Ira & Kara",
       "needed_for": "Naming + identity",
@@ -268,7 +271,7 @@
       "id": "INP-002",
       "section": "inputs",
       "kind": "input",
-      "status": "awaited",
+      "status": "requested-at-kickoff",
       "title": "Target SKU flavor profiles",
       "from": "Chef, via Naama, Rachel, Ira & Kara",
       "needed_for": "Naming + identity",
@@ -278,7 +281,7 @@
       "id": "INP-003",
       "section": "inputs",
       "kind": "input",
-      "status": "awaited",
+      "status": "requested-at-kickoff",
       "title": "Estimated pouch and box dimensions",
       "from": "Naama, Rachel, Ira & Kara",
       "needed_for": "Packaging (FPO until confirmed)",
@@ -386,6 +389,11 @@
       "refs": [
         "REF-001"
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "type": "Setup",
+      "text": "Reorganized the index and added locations for the project-folder registers and study."
     }
   ]
 }

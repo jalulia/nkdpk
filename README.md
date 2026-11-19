@@ -1,10 +1,10 @@
 # NakedPak
 
-Brand naming, identity and packaging for NakedPak's US direct-to-consumer soup and stew launch. ø co., sprint Nov 13 – Dec 18, 2026.
+Naming, identity and packaging for the US soup and stew launch.
 
-**Manifest:** https://jalulia.github.io/nkdpk/ — brief, schedule, inputs, references, notes, rounds, presentations, log and every file, linked.
+[Open the project index](https://jalulia.github.io/nkdpk/)
 
-Internal working document. The page is marked `noindex`, but the repository is public.
+The public index holds the brief, references, original input requests and activity log. The current client input register, annotated pin catalog and HTML study are in the shared iCloud project folder, `IC BRidge/NkdPk`.
 
 ## Structure
 
@@ -23,14 +23,12 @@ Internal working document. The page is marked `noindex`, but the repository is p
 | `data/manifest.json` | Source of truth for the page |
 | `tools/` | `build.py` writes `index.html`; `verify.py` checks it |
 
-Working masters (source files, large client drops) live in the iCloud folder `IC BRidge/NkdPk`, which mirrors these folders. This repository holds what the team views.
-
 ## Adding something
 
 1. Put the file in its folder, named by that folder's README.
 2. Add an entry to `data/manifest.json` (copy the closest existing entry) and a line to `log`.
 3. `python3 tools/build.py && python3 tools/verify.py`
-4. Commit and push. Pages updates in about a minute.
+4. Commit and push to update GitHub Pages.
 
 Nothing is overwritten. A revision is a new file (`-v02`) or a new round folder; the old entry stays, marked `superseded`.
 
