@@ -84,8 +84,8 @@ def build():
         blocks.append(section(anchor, title, body))
         nav.append(link('#' + anchor, title))
 
-    def project_file(label, path, description):
-        return (f'<article class="record"><div class="category">Project folder</div><div class="record-main">'
+    def project_file(label, path, description, metric):
+        return (f'<article class="record" data-metric="{esc(metric)}"><div class="category">Project folder</div><div class="record-main">'
                 f'<h3>{esc(label)}</h3><p>{esc(description)}</p><details><summary>File location</summary>'
                 f'<code>NkdPk/{esc(path)}</code></details></div></article>')
 
@@ -93,7 +93,7 @@ def build():
         items = grouped[key]
         if key == 'inputs':
             intake = project_file('Client input register', manifest['project']['private_register'],
-                                  'Open the register in the shared project folder for source documents and receipt status.')
+                                  'Open the register in the shared project folder for source documents and receipt status.', 'input-register')
             historical = [i for i in items if i.get('status') == 'requested-at-kickoff']
             new = [i for i in items if i not in historical]
             if historical:
@@ -101,11 +101,11 @@ def build():
             add(key, 'Client inputs', intake + ''.join(record(i) for i in new))
         elif key == 'references':
             catalog = project_file('Pin catalog', manifest['project']['private_catalog'],
-                                   'Board references and annotations.')
+                                   'Board references and annotations.', 'pin-catalog')
             add(key, 'Visual references', catalog + ''.join(record(i) for i in items))
         elif key == 'presentations':
             study = project_file('NakedPak visual reference study', manifest['project']['private_study'],
-                                 'HTML presentation and reference ledger.')
+                                 'HTML presentation and reference ledger.', 'board-study')
             add(key, 'Presentations', study + ''.join(record(i) for i in items))
         elif items:
             add(key, LABELS.get(key, sections[key]['title']), ''.join(record(i) for i in items))
@@ -121,7 +121,7 @@ def build():
     doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow">
-<title>{title} · Project index</title><link rel="stylesheet" href="assets/site/manifest.css"></head>
+<title>{title} · Project index</title><link rel="stylesheet" href="assets/site/manifest.css"><script defer src="assets/site/analytics.js"></script></head>
 <body class="index"><a class="skip" href="#main">Skip to content</a><div class="index-shell">
 <aside><a class="home" href="#top">{title}</a><div class="section-nav"><nav aria-label="Sections">{''.join(nav)}</nav></div>
 {link(REPO, 'Repository ↗')}</aside><main id="main"><header id="top" class="index-mast"><p>ø co. &nbsp; / &nbsp; Project index</p>

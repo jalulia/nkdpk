@@ -23,6 +23,10 @@ The public index holds the brief, references, original input requests and activi
 | `data/manifest.json` | Source of truth for the page |
 | `tools/` | `build.py` writes `index.html`; `verify.py` checks it |
 
+## Site analytics
+
+The public index records page loads, section visits, link clicks and opened records in the **register** Supabase project, under `public.nkdpk_events`. The `view` event counts page loads. The random `pv` groups interactions within one load. The tracker respects Do Not Track and Global Privacy Control and skips local files, frames, automated browsers and the library CMS owner session.
+
 ## Adding something
 
 1. Put the file in its folder, named by that folder's README.
