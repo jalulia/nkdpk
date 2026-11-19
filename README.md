@@ -25,7 +25,13 @@ The public index holds the brief, references, original input requests and activi
 
 ## Site analytics
 
-The public index records page loads, section visits, link clicks and opened records in the **register** Supabase project, under `public.nkdpk_events`. The `view` event counts page loads. The random `pv` groups interactions within one load. The tracker respects Do Not Track and Global Privacy Control and skips local files, frames, automated browsers and the library CMS owner session.
+The index and private review record page loads and navigation. The index also records link clicks and expanded records in the **register** Supabase project, under `public.nkdpk_events`. The `view` event counts page loads. The random `pv` groups interactions within one load. The tracker respects Do Not Track and Global Privacy Control and skips local files, frames, automated browsers and the library CMS owner session.
+
+## Private review
+
+The live study includes the deck, client register, sources and searchable reference ledger. Share the private review link saved beside the HTML master in iCloud. Its URL fragment contains the decryption key. The published `review/study.bin` contains the encrypted edition. The browser decrypts it on the viewer’s device. Analytics record page type and board or reference numbers.
+
+To update the same review link, run `node tools/seal-study.mjs /path/to/study.html /private/path/to/NakedPak_Private_Review.webloc` and commit the updated ciphertext.
 
 ## Adding something
 

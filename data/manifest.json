@@ -374,7 +374,8 @@
       },
       "description": "A soup name built around a chef-hippo mascot.",
       "project_path": "02-references/REF-003-soupapotamus/index.html",
-      "files": []
+      "files": [],
+      "review_route": "reference/soupapotamus"
     }
   ],
   "log": [

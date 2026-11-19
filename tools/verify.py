@@ -65,7 +65,7 @@ else:
         if u.startswith(REPO + "/blob/main/") or u.startswith(REPO + "/tree/main/"):
             path = u.split("/main/", 1)[1]
         elif not re.match(r"^(https?:|mailto:|data:|#)", u):
-            path = u.split("#")[0]
+            path = u.split("#")[0].split("?")[0]
         if path and not (ROOT / path).exists():
             errors.append(f"index.html links to missing {path}")
     if (ROOT / "data/manifest.json").stat().st_mtime > page.stat().st_mtime + 1:

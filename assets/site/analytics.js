@@ -1,7 +1,8 @@
 // Cookie-free counts for the hosted project index. All identifiers are scoped to one load.
 (() => {
+  const review = ['/nkdpk/review/', '/nkdpk/review/index.html'].includes(location.pathname);
   if (location.origin !== 'https://jalulia.github.io' ||
-      !['/nkdpk/', '/nkdpk/index.html'].includes(location.pathname) ||
+      (!review && !['/nkdpk/', '/nkdpk/index.html'].includes(location.pathname)) ||
       window.top !== window.self || navigator.webdriver ||
       navigator.globalPrivacyControl || navigator.doNotTrack === '1') return;
   try {
@@ -43,10 +44,28 @@
     fetch(endpoint, {
       method: 'POST', keepalive: true, credentials: 'omit', referrerPolicy: 'no-referrer',
       headers: { apikey: publicKey, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
-      body: JSON.stringify({ pv, event, section, item, device, ref })
+      body: JSON.stringify({ pv, page:review?'study':'index', event, section, item, device, ref })
     }).catch(() => {});
   }
 
+  if (review) {
+    let previous = null;
+    const slots = {board:'presentations', pin:'references', sample:'inputs', reference:'references',
+      inputs:'inputs', ledger:'references', sources:'files', project:'top'};
+    const prefixes = {board:'BRD',pin:'PIN',sample:'IMG'};
+    window.addEventListener('nakedpakreview', event => {
+      const [kind, index] = String(event.detail).split('/');
+      if (!Object.prototype.hasOwnProperty.call(slots, kind)) return;
+      let item = null;
+      if (prefixes[kind] && /^[1-9]\d{0,2}$/.test(index)) item = prefixes[kind]+'-'+index.padStart(3,'0');
+      else if (kind==='reference' && index==='soupapotamus') item = 'REF-003';
+      const route = kind + '/' + (item || '');
+      if (route === previous) return;
+      count(previous === null ? 'view' : 'section', slots[kind], item, previous === null ? externalHost() : null);
+      previous = route;
+    });
+    return;
+  }
   let current = routeSection();
   count('view', current, null, externalHost());
   addEventListener('hashchange', () => {
