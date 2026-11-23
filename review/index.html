@@ -1,11 +1,54 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Private Review</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'; connect-src https://zvrtnwuaqkumsbkgsdtf.supabase.co; img-src data:; style-src 'self'; script-src 'self'; font-src 'none'; frame-src 'none'; media-src 'none'">
 <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
-<title>NakedPak · Private review</title><link rel="stylesheet" href="../assets/site/manifest.css">
-<style>
-body{margin:0;min-height:100svh;}main{max-width:600px;margin:clamp(40px,12vh,140px) auto;padding:0 24px}
-h1{font-size:clamp(42px,7vw,78px);letter-spacing:-.068em;line-height:1.03;margin:16px 0}p{margin:15px 0}form{display:grid;grid-template-columns:1fr auto;gap:9px;margin:24px 0}label{grid-column:1/-1;font-size:13px}input,button{font:inherit;padding:10px 12px;border:1px solid #aaa;border-radius:0;min-width:0}button{cursor:pointer;background:#171717;color:white;border-color:#171717}iframe{position:fixed;inset:0;border:0;width:100%;height:100%;background:white}small{color:#555}
-</style><script defer src="../assets/site/analytics.js"></script><script defer src="open.js"></script></head>
-<body><main id="gate"><small>NakedPak / Project review</small><h1>Private review</h1><p id="message" role="status">Open the review link shared with you, or paste it below.</p>
-<form id="unlock" action="#"><label for="review-link">Private review link</label><input id="review-link" type="password" autocomplete="off" spellcheck="false" required><button>Open study</button></form>
-<a href="../">Project index</a></main><iframe hidden id="viewer" title="NakedPak study and reference ledger" allow="fullscreen" allowfullscreen></iframe></body></html>
+<link rel="stylesheet" href="./review.css">
+<script src="./legacy-route.js" defer></script>
+<script src="./config.js" defer></script>
+<script src="./cms.js" defer></script>
+<script src="./transport.js" defer></script>
+<script src="./hosted-auth.js" defer></script>
+</head><body>
+<section class="auth-gate" id="auth-gate" aria-labelledby="sign-in-title">
+<p class="mono">Private workspace</p><h1 id="sign-in-title">Review</h1>
+<p>Enter the authorized email address to receive a secure sign-in link.</p>
+<form id="auth-send" action="#"><label for="auth-email">Email address</label><div class="auth-line"><input id="auth-email" type="email" autocomplete="email" maxlength="254" required><button type="submit">Email sign-in link</button></div></form>
+<p>Open the link from your email in this same browser and profile.</p>
+<output id="auth-status" role="status" aria-live="polite"></output>
+<p><a href="./legacy.html">Open the original shared study</a></p>
+</section><div id="private-pane" hidden><div class="private-top"><span id="sync-status" role="status" aria-live="polite"></span><button id="auth-logout" type="button">Sign out</button></div>
+<a class="skip" href="#viewer">Skip to slides</a><main>
+<header class="top"><a href="#top" class="wordmark" id="top">NakedPak<span>.</span></a><nav aria-label="Page"><a href="#viewer">Slides</a><a href="#library">Originals</a></nav><span class="note">PRIVATE REVIEW · 11/22/26</span></header>
+<section aria-labelledby="page-title" class="hero"><div class="headline"><h1 id="page-title">Review Gallery</h1><p>Brand, food and packaging in one view.</p></div><div class="heroes" id="heroes"></div></section>
+<section class="viewer" id="viewer" aria-labelledby="viewer-head">
+<div class="viewer-head"><h2 id="viewer-head">Slide room</h2><p class="keys">Use <kbd>←</kbd> <kbd>→</kbd> to step through slides.</p></div>
+<section id="cms" class="cms" aria-label="Review organization">
+ <div class="cms-controls">
+  <label class="cms-view">Show <select id="cms-mode" aria-label="Show review items"></select></label>
+  <div id="cms-actions" class="cms-actions">
+   <label>Apply to <select id="cms-scope" aria-label="Organization scope"><option value="item">This slide</option><option value="deck">This deck</option></select></label>
+   <button id="cms-flag" type="button" aria-pressed="false">☆ Flag</button>
+   <button id="cms-archive" type="button">Archive</button>
+   <details class="cms-fold"><summary id="cms-groups-title">Groups</summary><div id="cms-group-options"></div><form id="cms-group-form"><label class="cms-sr" for="cms-new-group">New group name</label><input id="cms-new-group" maxlength="44" placeholder="New group name" required><button type="submit">Add</button></form></details>
+  </div>
+  <details class="cms-settings cms-fold"><summary>Manage</summary>
+    <p>Review settings sync to your authorized account. Export a backup at any time.</p>
+    <div class="cms-transfer"><button id="cms-undo" type="button" disabled>Undo last change</button><button id="cms-export" type="button">Export backup</button><label>Import backup <input id="cms-import-file" type="file" accept=".json,application/json"></label></div>
+    <div class="cms-group-manage"><label>Group <select id="cms-manage-list"></select></label><label>New name <input id="cms-edit-group" maxlength="44"></label><div class="cms-transfer"><button id="cms-rename" type="button">Rename group</button><button id="cms-delete" type="button">Remove group</button></div></div>
+  </details>
+ </div>
+ <p id="cms-status" class="cms-status" role="status" aria-live="polite"></p>
+</section>
+
+<div class="filters" id="filters" aria-label="Choose a workstream"></div>
+<div class="deckrail" id="deckrail" aria-label="Choose a deck"></div>
+<p hidden id="cms-empty" class="cms-empty"></p><div id="gallery-content"><div class="playtop"><div><p id="version" class="note"></p><h3 id="decktitle"></h3></div><div class="advance"><button id="prev" aria-label="Previous slide" title="Previous slide">←</button><output id="number" aria-live="polite"></output><button id="next" aria-label="Next slide" title="Next slide">→</button></div></div>
+<figure class="stage" id="stage" tabindex="0" aria-label="Slide viewer. Arrow keys for previous and next.">
+<button id="expand" class="expand" type="button" aria-label="Open slide at full size" title="Open slide at full size">⤢</button><img id="slide" alt=""><figcaption id="slide-label"></figcaption></figure>
+<div id="strip" class="strip" aria-label="Slide thumbnails"></div>
+<div class="deckfoot"><p id="caption"></p><div id="decklinks" class="source-links"></div></div></div>
+</section>
+<section id="library" class="sources"><div><h2>Sources stay private</h2><p id="source-intro">Open the iCloud edition for original files.</p></div><div class="source-links" id="source-links"></div></section>
+<footer><span>NakedPak · Private working review</span><a href="#top">Back to top ↑</a></footer>
+</main><dialog id="cms-confirm" class="cms-confirm" aria-label="Confirm importing review settings"><h2>Replace review settings?</h2><p>The backup will replace this browser’s flags, archive settings and groups. Originals are unchanged.</p><div class="cms-transfer"><button id="cms-import-cancel" type="button" autofocus>Cancel</button><button id="cms-import-confirm" type="button">Import backup</button></div></dialog><dialog id="lightbox" aria-label="Full-size slide"><div class="lighttop"><button id="lprev" aria-label="Previous slide">←</button><span id="lcount"></span><button id="lnext" aria-label="Next slide">→</button><button id="zoom" aria-pressed="false">100%</button><button id="close" aria-label="Close full-size slide">Close</button></div><div class="lightimage" id="lightimage"><img id="limage" alt=""></div></dialog>
+<noscript><p>This local gallery needs JavaScript to move between slides. Open the original PDFs from the _Source folder if JavaScript is disabled.</p></noscript>
+<script type="application/json" id="data">{}</script></div></body></html>
