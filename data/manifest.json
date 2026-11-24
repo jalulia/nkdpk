@@ -526,6 +526,72 @@
           "caption": "Board read data (JSON)"
         }
       ]
+    },
+    {
+      "id": "NAM-001",
+      "section": "naming",
+      "kind": "presentation",
+      "status": "current",
+      "category": "Moodboards",
+      "title": "R1 naming moodboards",
+      "tagline": "Three naming territories, each read as a visual territory with three ways in.",
+      "description": "One long scroll. Sam\u2019s three naming territories, each paired with a visual territory and three ways in: 9 boards, 106 pins from the nkdpk board, each used once. Editable in place from the owner\u2019s browser.",
+      "date": "2026-11-24",
+      "added_by": "Claude",
+      "source": {
+        "name": "HTML, editable",
+        "url": "04-naming/R1/NKP-NAM-R1-moodboards-v01/index.html"
+      },
+      "note": "Can you make a R1 Naming Mood boards page, linked in the nakedpak github, and fully cms editable? a simple presentation as a long scroll. extremely thoughtful photo selection and stylistic and thematic organization.",
+      "relevance": "Gives each naming territory a visual reading with range, so the client judges a territory across three looks instead of one picture.",
+      "elements": [
+        {
+          "label": "Kitchen Alchemy",
+          "text": "Sensory Metamorphosis: light, gloss and melt; object of desire; culinary surrealism"
+        },
+        {
+          "label": "All Together Now",
+          "text": "Whole-Bowl Abundance: woven type and food; a chorus of ingredients; the shared table"
+        },
+        {
+          "label": "Delicious Ritual",
+          "text": "Playful Utility: smart pantry label; drawn stove, witty line; caught in the act"
+        }
+      ],
+      "tags": [
+        "naming",
+        "R1",
+        "moodboards",
+        "territories",
+        "editable"
+      ],
+      "files": [
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/index.html",
+          "caption": "R1 naming moodboards (page)"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/content.json",
+          "caption": "Page content as built (JSON)"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/pins.json",
+          "caption": "Pin catalog for the editor (JSON)"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/app.mjs",
+          "caption": "Page and editor script"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/page-model.mjs",
+          "caption": "Page schema, shared with the nkdpk-pages function"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/styles.css",
+          "caption": "Page styles"
+        }
+      ],
+      "capture": ""
     }
   ],
   "log": [
@@ -601,6 +667,14 @@
       "text": "Removed password screens and obsolete review-link entry pages. Visual boards use one normal URL; the owner browser remembers editing access. Earlier private archive remains unchanged.",
       "refs": [
         "PRES-001"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Added",
+      "text": "R1 naming moodboards added to Naming: three territories, nine ways in, 106 pins. Page and editor in the repo; the editing service (nkdpk-pages) is in supabase/.",
+      "refs": [
+        "NAM-001"
       ]
     }
   ]
