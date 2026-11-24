@@ -1,1 +1,1 @@
-globalThis.NakedPakConfig=Object.freeze({"projectOrigin":"https://zvrtnwuaqkumsbkgsdtf.supabase.co","publishableKey":"sb_publishable_oDIIszXh2sXtBrS6aRCTiQ_yqx4TCvl","bucket":"nakedpak-review","catalogPath":"catalog/review-v3-58fd95e4652c223ca68dd29803f8418d8068203fb15833f6.json.gz"});
+// Retired. The current boards are at ../boards/.

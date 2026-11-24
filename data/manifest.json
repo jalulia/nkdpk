@@ -5,7 +5,7 @@
     "name": "NakedPak",
     "subtitle": "US consumer brand, name to come",
     "scope": "Brand naming, identity and packaging",
-    "studio": "ø co.",
+    "studio": "\u00f8 co.",
     "client_site": "https://www.nakedpak.com",
     "intro": "Naming, identity and packaging for the US soup and stew launch.",
     "sprint": {
@@ -15,7 +15,7 @@
       "weeks": 6
     },
     "brief_source": {
-      "title": "[INT] NakedPak – Creative Brief (Naming, Identity & Packaging)",
+      "title": "[INT] NakedPak \u2013 Creative Brief (Naming, Identity & Packaging)",
       "date": "2026-11-12",
       "url": "https://docs.google.com/document/d/1713PL9BpD0p5ZK2rTaSbG3Tz165FPtIJ0cLykfQHicw/edit",
       "mirror": "00-brief/brief-2026-11-12.md"
@@ -34,7 +34,7 @@
     {
       "label": "Assignment",
       "headline": "Name, identity and master box for the US direct-to-consumer launch.",
-      "body": "Create the consumer brand name, visual identity and master outer-box packaging for the DTC soup and stew launch (late March). “NakedPak” is the B2B seaweed-film name; “Deserved” was an investor placeholder.",
+      "body": "Create the consumer brand name, visual identity and master outer-box packaging for the DTC soup and stew launch (late March). \u201cNakedPak\u201d is the B2B seaweed-film name; \u201cDeserved\u201d was an investor placeholder.",
       "list": [
         "3 naming territories",
         "Visual identity + guidelines",
@@ -44,7 +44,7 @@
     {
       "label": "Opportunity",
       "headline": "Culinary comfort without plastic or prep.",
-      "body": "Chef-crafted bone-broth and plant-based soups. The seaweed pouch dissolves in boiling water in two minutes, thickening the broth with zero waste and zero plastic contact. Proving people love the “drop, cook, dissolve” ritual in DTC creates a category of one and unlocks B2B food partners."
+      "body": "Chef-crafted bone-broth and plant-based soups. The seaweed pouch dissolves in boiling water in two minutes, thickening the broth with zero waste and zero plastic contact. Proving people love the \u201cdrop, cook, dissolve\u201d ritual in DTC creates a category of one and unlocks B2B food partners."
     },
     {
       "label": "Audience",
@@ -53,7 +53,7 @@
     },
     {
       "label": "Tension",
-      "headline": "Effortless, waste-free comfort food, but “eating the wrapper” sounds like a science experiment.",
+      "headline": "Effortless, waste-free comfort food, but \u201ceating the wrapper\u201d sounds like a science experiment.",
       "body": "Lead with tech and shoppers hesitate. Hide the pouch and they miss the magic of the one-step ritual."
     },
     {
@@ -76,7 +76,7 @@
       "headline": "Read in three seconds.",
       "steps": [
         "Appetizing, food-first brand and flavor call",
-        "Foolproof “drop, cook, dissolve” ritual",
+        "Foolproof \u201cdrop, cook, dissolve\u201d ritual",
         "Clean-ingredient and zero-plastic trust cues"
       ]
     },
@@ -89,8 +89,8 @@
       "label": "Guardrails",
       "headline": "The work should not:",
       "list": [
-        "Lead with “edible packaging” or lab-tech language that makes the meal feel synthetic or experimental",
-        "Look like eco-austerity (beige craft-paper clichés) or cheap college instant noodles",
+        "Lead with \u201cedible packaging\u201d or lab-tech language that makes the meal feel synthetic or experimental",
+        "Look like eco-austerity (beige craft-paper clich\u00e9s) or cheap college instant noodles",
         "Overcomplicate the prep story; the ritual must read in three seconds",
         "Wait on final recipes or exact box dimensions; build on FPO dimensions and nutrition panels to hit Dec 18"
       ]
@@ -259,7 +259,7 @@
       "date": "2026-11-13",
       "added_by": "Julia",
       "source": {
-        "name": "Google Doc (ø co. shared drive)",
+        "name": "Google Doc (\u00f8 co. shared drive)",
         "url": "https://docs.google.com/document/d/1713PL9BpD0p5ZK2rTaSbG3Tz165FPtIJ0cLykfQHicw/edit"
       },
       "files": [
@@ -321,7 +321,7 @@
       "elements": [
         {
           "label": "Opener",
-          "text": "Name, an em dash, then a one-line repositioning: “A Pinch Of — Redefining ready-to-heat meals.” Set at text size above the hero, not as a giant headline.",
+          "text": "Name, an em dash, then a one-line repositioning: \u201cA Pinch Of \u2014 Redefining ready-to-heat meals.\u201d Set at text size above the hero, not as a giant headline.",
           "fig": 1
         },
         {
@@ -341,12 +341,12 @@
         },
         {
           "label": "Related cases",
-          "text": "Four-up cards: bold “Name — tagline.” running straight into a gray description.",
+          "text": "Four-up cards: bold \u201cName \u2014 tagline.\u201d running straight into a gray description.",
           "fig": 4
         },
         {
           "label": "Type",
-          "text": "One neutral grotesk (Suisse Int’l) for every line of site text; the serif logotype is the only brand voice on the page."
+          "text": "One neutral grotesk (Suisse Int\u2019l) for every line of site text; the serif logotype is the only brand voice on the page."
         }
       ],
       "tags": [
@@ -593,6 +593,14 @@
       "refs": [
         "PRS-003",
         "PRS-002"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Setup",
+      "text": "Removed password screens and obsolete review-link entry pages. Visual boards use one normal URL; the owner browser remembers editing access. Earlier private archive remains unchanged.",
+      "refs": [
+        "PRES-001"
       ]
     }
   ]

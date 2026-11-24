@@ -4,7 +4,8 @@ const $=id=>document.getElementById(id);
 const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
 const button=(text,fn,cls='')=>{const b=el('button',cls,text);b.type='button';b.addEventListener('click',fn);return b;};
 const clone=x=>structuredClone(x);
-const SESSION='nkdpk.boards.editor.v1',RECOVERY='nkdpk.boards.recovery.v1';
+const SESSION='nkdpk.boards.editor.v1',RECOVERY='nkdpk.boards.recovery.v1',DEVICE='nkdpk.browser.editor.v1';
+function deviceKey(){try{return localStorage.getItem(DEVICE)||'';}catch{return '';}}
 let doc,revision=0,publishedRevision=0,token='',editing=false,previewing=false,tid='',bid='',studyMode=false,selection=null;
 let dirty=false,saving=false,conflict=false,saveError='',changeSeq=0,timer=null,retryTimer=null;
 let undoStack=[],redoStack=[],previews={},uploadTarget=null,lightImages=[],lightIndex=0,toastTimer,loading=false;
@@ -14,10 +15,11 @@ const canEdit=()=>editing&&!previewing;
 const findParent=id=>{for(const t of doc.territories)for(const b of [...t.boards,...t.studies])if(b.id===id)return {territory:t,item:b,kind:t.boards.includes(b)?'board':'study'};return null;};
 const findImage=id=>{for(const t of doc.territories)for(const b of [...t.boards,...t.studies]){const image=b.images.find(i=>i.id===id);if(image)return {territory:t,parent:b,image,kind:t.boards.includes(b)?'board':'study'};}return null;};
 function toast(message,delay=4200){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);if(delay)toastTimer=setTimeout(()=>$('toast').hidden=true,delay);}
-async function api(path='',{method='GET',body,raw=false}={}){
+async function api(path='',{method='GET',body,raw=false,retry=true}={}){
  const headers={};if(token)headers['x-editor-session']=token;if(body!==undefined)headers['Content-Type']=raw?(body.type||'application/octet-stream'):'application/json';
  const response=await fetch(API+path,{method,headers,body:body===undefined?undefined:raw?body:JSON.stringify(body),credentials:'omit',referrerPolicy:'no-referrer',signal:AbortSignal.timeout(raw?90000:25000)});
  const result=await response.json().catch(()=>({error:'The server returned an unreadable response.'}));
+ if(response.status===401&&retry&&path!=='/unlock'&&deviceKey()){saveSession(await api('/unlock',{method:'POST',body:{key:deviceKey()},retry:false}));return api(path,{method,body,raw,retry:false});}
  if(!response.ok){const e=Error(result.error||(response.status===409?'A newer draft was saved in another tab.':'Could not save. Please try again.'));e.status=response.status;e.conflict=response.status===409;throw e;}
  return result;
 }
@@ -27,6 +29,7 @@ function rememberUndo(){undoStack.push(JSON.stringify(doc));if(undoStack.length>
 function markChanged(){dirty=true;changeSeq++;saveError='';remember();syncControls();clearTimeout(timer);timer=setTimeout(()=>void flush(),650);}
 function change(fn,{snapshot=true,inspector=true}={}){if(!editing)return;if(snapshot)rememberUndo();fn();markChanged();render();if(inspector)renderInspector();}
 function syncControls(){
+ $('edit-toggle').hidden=!editing&&!token&&!deviceKey();
  $('publish').hidden=!editing;$('editbar').hidden=!editing;$('edit-toggle').textContent=editing?'Edit selection':'Edit boards';
  $('undo').disabled=!undoStack.length;$('redo').disabled=!redoStack.length;
  $('publish').disabled=saving||conflict||loading||(!dirty&&revision===publishedRevision);
@@ -285,9 +288,17 @@ async function loadDraft({recover=false}={}){
  parseRoute();render();renderInspector();
 }
 async function unlock(key){
- $('unlock-status').textContent='Opening editor…';
- try{const result=await api('/unlock',{method:'POST',body:{key}});saveSession(result);await loadDraft({recover:true});$('editor-key').value='';$('unlock-status').textContent='';$('unlock-dialog').close();toast('Editor open. Changes save to a draft until you publish.');}
- catch(e){$('unlock-status').textContent=e.message;if(!$('unlock-dialog').open)$('unlock-dialog').showModal();}
+ try{
+  const result=await api('/unlock',{method:'POST',body:{key},retry:false});
+  localStorage.setItem(DEVICE,key);saveSession(result);
+  await loadDraft({recover:true});
+  toast('Editing is ready in this browser.');
+ }catch(e){toast('Editing could not open. Please retry in this browser.',7000);}
+}
+async function enterEditor(){
+ if(editing){previewing=false;render();renderInspector();if(innerWidth<761)$('inspector').scrollIntoView({behavior:'smooth'});return;}
+ if(!token&&deviceKey()){await unlock(deviceKey());return;}
+ if(token)try{await loadDraft({recover:true});}catch{toast('Editing could not open. Please retry.',7000);}
 }
 async function savedVersions(){
  if(!await flush())return;$('versions-dialog').showModal();$('versions-list').textContent='Loading…';
@@ -296,14 +307,13 @@ async function savedVersions(){
 }
 $('image-files').onchange=e=>{if(uploadTarget&&e.target.files.length)void uploadFiles([...e.target.files],uploadTarget.parentId,uploadTarget.replaceId);};
 $('publish').onclick=publish;
-$('edit-toggle').onclick=()=>{if(editing){previewing=false;render();renderInspector();if(innerWidth<761)$('inspector').scrollIntoView({behavior:'smooth'});}else if(token)void loadDraft().catch(()=>{token='';$('unlock-dialog').showModal();});else $('unlock-dialog').showModal();};
-$('unlock-form').onsubmit=e=>{e.preventDefault();void unlock($('editor-key').value.trim());};
+$('edit-toggle').onclick=enterEditor;
 $('preview-mode').onclick=()=>{previewing=!previewing;render();renderInspector();};
 $('site-settings').onclick=()=>{previewing=false;selection={kind:'site'};render();renderInspector();};
 $('undo').onclick=()=>{if(!undoStack.length)return;redoStack.push(JSON.stringify(doc));doc=JSON.parse(undoStack.pop());selection=null;markChanged();render();renderInspector();};
 $('redo').onclick=()=>{if(!redoStack.length)return;undoStack.push(JSON.stringify(doc));doc=JSON.parse(redoStack.pop());selection=null;markChanged();render();renderInspector();};
 $('history').onclick=savedVersions;$('export').onclick=exportBackup;
-$('lock-editor').onclick=async()=>{if(!await flush())return;await api('/logout',{method:'POST'}).catch(()=>{});sessionStorage.removeItem(SESSION);token='';editing=false;previewing=false;const r=await api();doc=validateDocument(r.document);revision=publishedRevision=r.revision;selection=null;render();renderInspector();};
+$('lock-editor').onclick=async()=>{if(!await flush())return;editing=false;previewing=false;const r=await api();doc=validateDocument(r.document);revision=publishedRevision=r.revision;selection=null;render();renderInspector();};
 document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>b.closest('dialog').close());
 $('lightbox-prev').onclick=()=>{if(lightIndex>0){lightIndex--;showLightboxImage();}};
 $('lightbox-next').onclick=()=>{if(lightIndex<lightImages.length-1){lightIndex++;showLightboxImage();}};
@@ -322,7 +332,7 @@ async function init(){
  catch{try{doc=validateDocument(await (await fetch('./seed.json')).json());toast('Showing the saved edition. Reconnect to edit.');}catch{$('content').replaceChildren(el('div','loading','The boards could not load. Please refresh.'));return;}}
  parseRoute();render();
  if(key)await unlock(key);
- else if(token)try{await loadDraft({recover:true});}catch{token='';sessionStorage.removeItem(SESSION);editing=false;render();}
+ else syncControls();
 }
 void init();
 
