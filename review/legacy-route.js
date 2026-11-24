@@ -1,4 +1,4 @@
-// Preserve existing study links while making the owner-only studio the default.
+// Preserve existing study links while making the PIN gallery the default.
 (() => {
   'use strict';
   const query = new URLSearchParams(location.search);
@@ -7,7 +7,8 @@
   const view = /^(project|ledger|inputs|sources(?:\/[\w-]+)?|reference\/[\w-]+|(?:board|sample|pin)\/[1-9]\d{0,2})$/;
   const key = fragment.get('k');
   const open = query.get('open');
-  if (!/^[A-Za-z0-9_-]{43}$/.test(key || '') && !view.test(open || '')) return;
+  const keylessBoard = /^board\/[1-9]\d{0,2}$/.test(open || '');
+  if (!/^[A-Za-z0-9_-]{43}$/.test(key || '') && (!view.test(open || '') || keylessBoard)) return;
   const dest = new URL('./legacy.html', location.href);
   if (view.test(open || '')) dest.searchParams.set('open', open);
   if (/^[A-Za-z0-9_-]{43}$/.test(key || '')) {
