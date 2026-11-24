@@ -3,7 +3,7 @@
 
     python3 tools/verify.py
 
-Fails on: duplicate IDs, unknown sections, entry files that don't exist, links in
+Fails on: duplicate IDs, undated entries, unknown sections, entry files that don't exist, links in
 index.html that point at missing files, a stale index.html, British spellings.
 Warns on: files in content folders that no entry links to.
 """
@@ -30,6 +30,8 @@ linked = set()
 for x in m["entries"]:
     if x["section"] not in sections:
         errors.append(f"{x['id']}: unknown section {x['section']}")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", x.get("date", "")):
+        errors.append(f"{x['id']}: missing or malformed date (YYYY-MM-DD); every index entry is dated")
     for f in x.get("files", []):
         linked.add(f["path"])
         if not (ROOT / f["path"]).is_file():

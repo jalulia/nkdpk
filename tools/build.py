@@ -29,6 +29,13 @@ def file_link(item):
     return link(url, item.get('caption') or Path(path).name)
 
 
+def date_tag(day):
+    if not day:
+        return ''
+    shown = datetime.date.fromisoformat(day).strftime('%b %d, %Y')
+    return f'<small><time datetime="{esc(day)}">{shown}</time></small>'
+
+
 def record(item):
     source = item.get('source', {})
     title = link(source['url'], item['title']) if source.get('url') else esc(item['title'])
@@ -49,7 +56,7 @@ def record(item):
         details += f'<details><summary>Files &amp; notes</summary><ul>{links}</ul>{elements}</details>'
     return (f'<article class="record" id="{esc(item["id"])}"><div class="category">{esc(category)}</div>'
             f'<div class="record-main"><h3>{title}</h3>{f"<p>{esc(desc)}</p>" if desc else ""}{details}</div>'
-            f'<div class="record-id">{esc(item["id"])}{f"<small>{esc(kind)}</small>" if kind else ""}</div></article>')
+            f'<div class="record-id">{esc(item["id"])}{date_tag(item.get("date"))}{f"<small>{esc(kind)}</small>" if kind else ""}</div></article>')
 
 
 def section(anchor, title, body):
@@ -89,9 +96,10 @@ def build():
     def project_file(label, path, description, metric):
         view = {'input-register': 'inputs', 'pin-catalog': 'ledger', 'board-study': 'board/1'}[metric]
         review = link('review/legacy.html?open=' + quote(view, safe='/'), label)
+        day = manifest['project'].get('private_dates', {}).get(metric)
         return (f'<article class="record" data-metric="{esc(metric)}"><div class="category">Private review</div><div class="record-main">'
                 f'<h3>{review}</h3><p>{esc(description)}</p><details><summary>File location</summary>'
-                f'<code>NkdPk/{esc(path)}</code></details></div></article>')
+                f'<code>NkdPk/{esc(path)}</code></details></div><div class="record-id">{date_tag(day)}</div></article>')
 
     for key in order:
         items = grouped[key]
@@ -110,7 +118,7 @@ def build():
         elif key == 'presentations':
             study = project_file('Original visual reference study', manifest['project']['private_study'],
                                  'Earlier 41-board study on the product, visual references and design directions.', 'board-study')
-            current = '<article class="record" data-metric="current-review"><div class="category">Current review</div><div class="record-main"><h3><a href="review/">NakedPak review gallery</a></h3><p>23 decks and 315 slides across brand, Miso Mushroom, packaging and strategy, including Second Sitting and Cut Stock. Use the shared review code to view. Owner sign-in is separate for editing.</p></div></article>'
+            current = '<article class="record" data-metric="current-review"><div class="category">Current review</div><div class="record-main"><h3><a href="review/">NakedPak review gallery</a></h3><p>23 decks and 315 slides across brand, Miso Mushroom, packaging and strategy, including Second Sitting and Cut Stock. Use the shared review code to view. Owner sign-in is separate for editing.</p></div>' + f'<div class="record-id">{date_tag(manifest["project"].get("private_dates", {}).get("current-review"))}</div></article>'
             add(key, 'Presentations', current + study + ''.join(record(i) for i in items))
         elif items:
             add(key, LABELS.get(key, sections[key]['title']), ''.join(record(i) for i in items))

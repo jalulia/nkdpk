@@ -19,6 +19,7 @@ Julia drops references, materials and loose ideas into chat for this project. Ea
 
 - Never overwrite or delete. Revisions are new files (`-v02`) or new round folders; mark the old entry `status: "superseded"`.
 - Every entry links to the actual file it names, never to an index or folder standing in for it.
+- Every index entry is dated: `date` (YYYY-MM-DD) is required and shows on the index. `verify.py` fails an undated entry.
 - US English only. Plain, short copy; no filler.
 - Design: black on white, Archivo only, the 10-column grid in `assets/site/manifest.css`. No accent color, no textures, no oxblood. Text never touches a rule.
 - `color-scheme: light` and explicit white backgrounds stay on `html` and `body`.
