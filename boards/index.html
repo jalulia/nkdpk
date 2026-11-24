@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<meta name="description" content="NakedPak visual territories, reference boards and brand studies.">
+<title>NakedPak / Visual boards</title>
+<link rel="stylesheet" href="./boards.css">
+<script type="module" src="./app.mjs"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to boards</a>
+<header class="masthead">
+<a class="wordmark" href="../" id="site-title">NAKEDPAK</a>
+<p class="edition"><span id="site-date">24 NOV 2026</span><span id="site-category">BRAND DESIGN</span></p>
+<div class="header-actions"><span id="sync-status" class="save-status" role="status" aria-live="polite"></span><button id="publish" class="solid" hidden>Publish changes</button><button id="edit-toggle">Edit boards</button></div>
+</header>
+<div id="editbar" class="editbar" hidden>
+<span class="edit-label">Editing draft</span><button id="undo" disabled>Undo</button><button id="redo" disabled>Redo</button><button id="history">Saved versions</button><button id="site-settings">Page details</button><button id="export">Export backup</button><button id="preview-mode">Preview</button><button id="lock-editor">Lock editor</button>
+</div>
+<div class="workspace">
+<main id="main" tabindex="-1">
+<nav id="territories" class="territory-nav" aria-label="Territories"></nav>
+<div id="content"><div class="loading"><p>Opening visual boards…</p></div></div>
+<footer class="page-footer"><a href="../">Project index</a><span>Visual reference collection</span><a href="../review/">Review gallery</a></footer>
+</main>
+<aside id="inspector" class="inspector" aria-label="Edit selection" hidden></aside>
+</div>
+<dialog id="unlock-dialog" class="small-dialog">
+<form id="unlock-form"><div class="dialog-heading"><h2>Edit boards</h2><button type="button" data-close aria-label="Close">Close</button></div><p>Open your private editor link, or paste your editing key here.</p><label>Editing key<input id="editor-key" type="password" autocomplete="off" required spellcheck="false"></label><p id="unlock-status" role="status"></p><button class="solid" type="submit">Open editor</button></form>
+</dialog>
+<dialog id="lightbox" class="lightbox"><div class="lightbox-top"><span id="lightbox-label"></span><div><button id="lightbox-prev">Previous</button><button id="lightbox-next">Next</button><button data-close>Close</button></div></div><div class="lightbox-image"><img id="lightbox-img" alt=""></div><div class="lightbox-foot"><p id="lightbox-caption"></p><a id="lightbox-source" target="_blank" rel="noopener noreferrer">View source</a></div></dialog>
+<dialog id="versions-dialog" class="small-dialog"><div class="dialog-heading"><h2>Saved versions</h2><button data-close>Close</button></div><p>Restoring a version changes the draft. Publish when it is ready.</p><div id="versions-list"></div></dialog>
+<dialog id="confirm-dialog" class="small-dialog"><form method="dialog"><h2 id="confirm-title"></h2><p id="confirm-copy"></p><div class="dialog-actions"><button value="cancel">Cancel</button><button value="confirm" class="solid">Continue</button></div></form></dialog>
+<input id="image-files" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple hidden>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p>Enable JavaScript to browse and edit the visual boards.</p></noscript>
+</body></html>

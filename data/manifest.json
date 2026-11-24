@@ -150,6 +150,13 @@
       "description": "Outside work worth keeping: case studies, packaging, type, photography. One folder per reference."
     },
     {
+      "id": "boards",
+      "num": "",
+      "title": "Visual boards",
+      "folder": "boards/",
+      "description": "Editable visual territories and relevant brand studies."
+    },
+    {
       "id": "notes",
       "num": "03",
       "title": "Notes",
@@ -458,6 +465,26 @@
           "caption": "Board read data (JSON)"
         }
       ]
+    },
+    {
+      "id": "PRES-001",
+      "section": "boards",
+      "kind": "presentation",
+      "status": "current",
+      "title": "Visual boards",
+      "description": "Kitchen Alchemy, All Together Now and Delicious Ritual. Three boards and a set of brand studies for each territory.",
+      "date": "2026-11-24",
+      "added_by": "Codex",
+      "source": {
+        "name": "HTML collection",
+        "url": "boards/"
+      },
+      "files": [
+        {
+          "path": "boards/index.html",
+          "caption": "Open the visual boards"
+        }
+      ]
     }
   ],
   "log": [
@@ -508,6 +535,14 @@
       "refs": [
         "PRS-001",
         "PRS-002"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Added",
+      "text": "Added the editable HTML visual boards and brand studies.",
+      "refs": [
+        "PRES-001"
       ]
     }
   ]

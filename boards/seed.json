@@ -1,0 +1,911 @@
+{
+  "version": 1,
+  "title": "NAKEDPAK",
+  "date": "24 NOV 2026",
+  "category": "BRAND DESIGN",
+  "territories": [
+    {
+      "id": "kitchen-alchemy",
+      "name": "Kitchen Alchemy",
+      "description": "The culinary transformation at the heart of the product: a folded portion becomes a meal in the pot.",
+      "boards": [
+        {
+          "id": "c0777e50-504f-46b6-a1f0-e51027670082",
+          "title": "Surreal food imagery",
+          "description": "Cutout ingredients and improbable scale turn a familiar meal into something unexpected.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "e2955fff-93ae-435b-a366-76764d09d856",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/1d7fdfb6-d933-465d-a591-9a0eaca90322",
+              "assetId": "1d7fdfb6-d933-465d-a591-9a0eaca90322",
+              "label": "Pasta Dreams",
+              "caption": "",
+              "alt": "Pasta Dreams visual reference",
+              "source": "https://thedieline.com/cooking-up-the-unexpected-with-jamie-oliver/",
+              "fallbackSrc": "https://thedieline.com/wp-content/uploads/2022/10/d7df1c0d-871c-41a9-b888-1f3709520ef7_15255052155192779e41ecea65b1c0b8765fb76cbf290fe488472c175b89c6922e4df76c65d_1280.jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "1dcf87c5-df31-40bc-9a10-c1857bf77d17",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/a77fc7e6-20d7-44e7-b3c8-df0c4c8508b3",
+              "assetId": "a77fc7e6-20d7-44e7-b3c8-df0c4c8508b3",
+              "label": "GOODLES",
+              "caption": "",
+              "alt": "GOODLES visual reference",
+              "source": "https://www.goodles.com/",
+              "fallbackSrc": "https://images.ctfassets.net/bdj7cfajz56z/5cVxh1sZYqesiWYSalXUjp/7dd7f4e19fe337aeb5932c01182517d6/Twirly_Box_Family_NotAI_1_2.png?w=800&h=1667&q=80&fm=png",
+              "fit": "contain",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "eef8f203-d950-4f56-88b2-36bde4a27c00",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/afcadeff-c7ea-40f7-87c5-f94825b0eee7",
+              "assetId": "afcadeff-c7ea-40f7-87c5-f94825b0eee7",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://contra.com/p/LNNBlWmO-lazy-food-branding-and-packaging",
+              "fallbackSrc": "https://media.contra.com/image/upload/fl_progressive/q_auto:best/i6mtzepvh2ugope82bq0.webp",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "d86a0dcb-1237-4878-8ed7-669dcc6c676f",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/4e32243f-df03-4374-9925-ddaa1c92ad85",
+              "assetId": "4e32243f-df03-4374-9925-ddaa1c92ad85",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/f56eeab10fd5638c3080637a19b978330f12e2ab-1800x1013.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "8ce7f666-6134-46b8-980a-16ae1d5284a9",
+          "title": "Material abstraction",
+          "description": "Light and close detail make the change in texture feel almost tangible.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "1a25916a-5b42-4004-88a4-2bfd77f104c4",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/80e2e80d-0c81-4773-9508-fbd50c489bb2",
+              "assetId": "80e2e80d-0c81-4773-9508-fbd50c489bb2",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/f5399c26a5d03fa17e5aa8681c80017a86bfb48a-1800x1013.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "82b6892e-9274-443b-9525-aaf8775d62c9",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/0cb4c22f-0d71-4557-ae66-878003d5ddaf",
+              "assetId": "0cb4c22f-0d71-4557-ae66-878003d5ddaf",
+              "label": "Algae Cooking Club",
+              "caption": "",
+              "alt": "Algae Cooking Club visual reference",
+              "source": "https://algaecookingclub.com/",
+              "fallbackSrc": "https://algaecookingclub.imgix.net/Algae-Images/First-Selects-007-1.jpg?ixlib=js-3.8.0&q=75&auto=format%2Ccompress&max-w=2048",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "afcd9afc-8f61-49ca-89f9-dfc4b0d02741",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/cce820b7-864c-4ea0-9a4f-e0a1da75c071",
+              "assetId": "cce820b7-864c-4ea0-9a4f-e0a1da75c071",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-16-cropped.jpg?v=1783690031&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "97ef4ced-6ceb-4c85-b11f-f72f9dfc105e",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/df178640-1a60-42ab-b7d6-a40e1474ab92",
+              "assetId": "df178640-1a60-42ab-b7d6-a40e1474ab92",
+              "label": "Rose Los Angeles",
+              "caption": "",
+              "alt": "Rose Los Angeles visual reference",
+              "source": "https://mouthwash.studio/project/rose-delights/",
+              "fallbackSrc": "https://cdn.sanity.io/images/ew1yzffi/production/8b5e5e79cdbdd989ed8c2112894012d91ec87556-1410x1064.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "d165b9c5-f165-4457-a18b-41df976d7812",
+          "title": "Sculptural still life",
+          "description": "Precise composition and unusual scale give familiar food a sculptural presence.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "8eca017f-41f4-43a0-a4b8-d56680052373",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/732c7394-3c23-4c5c-bc53-be723b5f536e",
+              "assetId": "732c7394-3c23-4c5c-bc53-be723b5f536e",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-variety-pack-1.jpg?v=1783455954&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "e14c459c-c26e-41a3-bf3b-d43afe34c39e",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/9b589747-c84e-4989-9236-9b87c90d7960",
+              "assetId": "9b589747-c84e-4989-9236-9b87c90d7960",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/77af91cf083a44cdaffc908d6ba001182300fe3c-890x890.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "f2897eca-a5d6-428f-abfa-e72ad0122ecd",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/93f05f4d-5c4d-4884-8665-9c8a0b7ed17a",
+              "assetId": "93f05f4d-5c4d-4884-8665-9c8a0b7ed17a",
+              "label": "Rose Los Angeles",
+              "caption": "",
+              "alt": "Rose Los Angeles visual reference",
+              "source": "https://mouthwash.studio/project/rose-delights/",
+              "fallbackSrc": "https://cdn.sanity.io/images/ew1yzffi/production/9d0a93ee30b7fc06ce9752efab1fa8d45ad701f5-467x597.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "67e3ac55-5f59-47ba-acdc-f717d4e56185",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/fb6f8140-771b-4da3-90ad-3b841467797f",
+              "assetId": "fb6f8140-771b-4da3-90ad-3b841467797f",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-mango-1.jpg?v=1783455536&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "63ede259-df33-45cc-ab70-43693a0b6175",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/616fe781-2436-4585-9bce-768228394268",
+              "assetId": "616fe781-2436-4585-9bce-768228394268",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-mango-4.jpg?v=1783466615&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        }
+      ],
+      "studies": [
+        {
+          "id": "05f4f0a5-a458-4612-a790-a2ae6fa6f008",
+          "name": "Cometeer",
+          "category": "Flash-frozen coffee",
+          "description": "Retro-futurist language, saturated packaging and sensory photography make an unfamiliar format feel desirable. The promise of transformation runs through the whole system.",
+          "website": "https://cometeer.com",
+          "instagram": "https://www.instagram.com/cometeer/",
+          "images": [
+            {
+              "id": "374a41c9-429b-4500-ab07-50c5d4f788ec",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/79734812-6da9-4bce-8b09-fc4816b7e060",
+              "assetId": "79734812-6da9-4bce-8b09-fc4816b7e060",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/c619e94d82b4b7752e63d916b8acc330e469e8f6-890x890.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "9cb7f424-ff2a-4cab-8ba7-69045225cd42",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/c10c297d-af9b-48ef-8ee2-e75e06d28600",
+              "assetId": "c10c297d-af9b-48ef-8ee2-e75e06d28600",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/868264abc59eaf6c042a143bbcbc30244a7b8a4e-890x890.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "d035169e-cc26-4b49-a43a-54f521167541",
+          "name": "Rose Los Angeles",
+          "category": "Chef-developed cannabis edibles",
+          "description": "Seasonal ingredients give the brand its visual vocabulary. Restrained packaging leaves room for the fruit, culinary process and changing recipes to create discovery.",
+          "website": "https://roselosangeles.com",
+          "instagram": "https://www.instagram.com/rose_losangeles/",
+          "images": [
+            {
+              "id": "cd254ae2-f01f-4dab-962a-5fc9930f9ad6",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/7babbdc3-705b-48b0-b380-49dfd564f926",
+              "assetId": "7babbdc3-705b-48b0-b380-49dfd564f926",
+              "label": "Rose Los Angeles",
+              "caption": "",
+              "alt": "Rose Los Angeles visual reference",
+              "source": "https://roselosangeles.com/",
+              "fallbackSrc": "https://cdn.sanity.io/images/yl1rlzpq/staging/f3db761dbb4bf35df806d07d4a2fc788e01f4560-2920x2480.jpg?q=85&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "0134f3b9-b9c3-408e-ac84-694bb05f79d8",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/efb0aac3-18a0-4f79-a60b-fd343db48a54",
+              "assetId": "efb0aac3-18a0-4f79-a60b-fd343db48a54",
+              "label": "Rose Los Angeles",
+              "caption": "",
+              "alt": "Rose Los Angeles visual reference",
+              "source": "https://mouthwash.studio/project/rose-delights/",
+              "fallbackSrc": "https://cdn.sanity.io/images/ew1yzffi/production/8e118ed4c6fdc150e9335009136e5d2ae3d83119-1984x2286.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "4da2577b-aa0d-4887-9024-39b6c428169a",
+          "name": "Wobble",
+          "category": "Gelatin dessert mixes",
+          "description": "Rounded lettering echoes the product’s wobble. Sculptural jelly and playful domestic props make the act of setting and serving part of the brand’s pleasure.",
+          "website": "https://eatwobble.com",
+          "instagram": "https://www.instagram.com/eatwobble/",
+          "images": [
+            {
+              "id": "24c1085e-4927-4309-ba44-6aa00edb9eb0",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/563f866c-9ec3-41ec-a0bb-c9ab042bbbc5",
+              "assetId": "563f866c-9ec3-41ec-a0bb-c9ab042bbbc5",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-strawberry.jpg?v=1783455537&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "fc694168-a9cf-438d-8124-6f8b6cefa63b",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/d40fce2b-e7ea-43b8-805b-12d91b9ea6b6",
+              "assetId": "d40fce2b-e7ea-43b8-805b-12d91b9ea6b6",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-strawberry-3.jpg?v=1783455536&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "all-together-now",
+      "name": "All Together Now",
+      "description": "Package, ingredients and water become one meal. A visual world built around interplay and generosity.",
+      "boards": [
+        {
+          "id": "f98168e9-3535-4174-81e8-4dd6385e5fd3",
+          "title": "Ingredient-led identities",
+          "description": "Ingredient photography and illustration connect flavor, color and personality across a family of products.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "e798ce5e-76f7-46fd-a648-d11eb7b23ec3",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/4b4e8029-26d1-4331-8d52-f80bcb3d1fab",
+              "assetId": "4b4e8029-26d1-4331-8d52-f80bcb3d1fab",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://contra.com/p/LNNBlWmO-lazy-food-branding-and-packaging",
+              "fallbackSrc": "https://media.contra.com/image/upload/fl_progressive/q_auto:best/xdf5b5c3ub0vb6dd73tf.webp",
+              "fit": "contain",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "af11a7d1-596e-4b6d-b0d8-1126695a02cd",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/eacf225f-9940-4cbc-9415-927741d3f022",
+              "assetId": "eacf225f-9940-4cbc-9415-927741d3f022",
+              "label": "Lentiful",
+              "caption": "",
+              "alt": "Lentiful visual reference",
+              "source": "https://eatlentiful.com/",
+              "fallbackSrc": "https://eatlentiful.com/cdn/shop/files/LentifulFamilyFull_c6b81c4d-0d27-4ff3-9d8f-6af7720f2c99.png?v=1767902950",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "8fa8e36a-0582-43da-83a4-8961621af3cf",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/8163d3cd-7656-4698-a91d-873413fc2cec",
+              "assetId": "8163d3cd-7656-4698-a91d-873413fc2cec",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/7319bea0-0ef6-4448-b0d3-3b9c09500d10_Outline_Heyday-06.jpg?auto=compress%2Cformat&fit=max&w=1600",
+              "fit": "contain",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "6be1ae22-a8b4-4589-92d2-5a746ec47050",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/935ca3b5-355d-45bd-8cf3-b636b5043f3f",
+              "assetId": "935ca3b5-355d-45bd-8cf3-b636b5043f3f",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://www.flymaryfly.com/illustration/lazyfood",
+              "fallbackSrc": "https://cdn.prod.website-files.com/6160029329a3f681d23f91fc/6425e362f777eb874611573b_Screenshot%202023-03-30%20at%2021.22.53.png",
+              "fit": "contain",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "f614d63a-058d-4424-a0b0-0d1e77b0a891",
+          "title": "Graphic interplay",
+          "description": "Type and image overlap, repeat and interrupt one another to create a lively whole.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "33d03f96-8401-429e-bb49-154ffde06462",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/69fcb973-3eca-4cb0-80d7-68f35d2c244e",
+              "assetId": "69fcb973-3eca-4cb0-80d7-68f35d2c244e",
+              "label": "GOODLES",
+              "caption": "",
+              "alt": "GOODLES visual reference",
+              "source": "https://www.goodles.com/",
+              "fallbackSrc": "https://images.ctfassets.net/bdj7cfajz56z/56CoWVX3VFfSOSgppINxjb/a118718a7a19cf05f579d521e3d851d6/Goodles_112025_4324-Edit.png?w=700&h=548&q=80&fm=png",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "e2e076d1-bb2f-4a62-88a4-51e0e08f07a7",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/92276c4e-79d9-4a19-a531-29afd87dcb2c",
+              "assetId": "92276c4e-79d9-4a19-a531-29afd87dcb2c",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/770965b0-05f2-4f7b-bcec-38c266d36465_Outline_Heyday-11.png?auto=compress%2Cformat&fit=max&w=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "b751ebc6-57ca-4fc1-afbb-a6187684e0e5",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/242bd00b-c865-4429-8fa0-34977b7781a4",
+              "assetId": "242bd00b-c865-4429-8fa0-34977b7781a4",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://contra.com/p/LNNBlWmO-lazy-food-branding-and-packaging",
+              "fallbackSrc": "https://media.contra.com/image/upload/fl_progressive/q_auto:best/q2lwkanrhewneqynojqu.webp",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "4a87e9a1-db92-431a-a057-2d3035ff199c",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/8d7f86c7-4209-4747-8d07-41b31fddf4e1",
+              "assetId": "8d7f86c7-4209-4747-8d07-41b31fddf4e1",
+              "label": "Graza",
+              "caption": "",
+              "alt": "Graza visual reference",
+              "source": "https://www.takeagander.com/project/graza",
+              "fallbackSrc": "https://cdn.sanity.io/images/fkvzptmq/production/d4fc9702e7692ea7cc99e470b53c721da38aa5ca-2816x1738.jpg?w=2816&h=1738&q=80&fit=max&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "49673770-6477-4c10-a6d7-6eb871ae1eae",
+          "title": "Shared-table photography",
+          "description": "Abundant compositions make togetherness visible through the meal and its setting.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "949f8c69-f4a1-460c-b419-c64f66f3b734",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/210ee93e-fba6-4c00-8370-859ecb122676",
+              "assetId": "210ee93e-fba6-4c00-8370-859ecb122676",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/ad422ac8-f8e5-4f4b-bc01-7ede7774ae04_Outline_Heyday-01.jpg?auto=compress%2Cformat&rect=111%2C0%2C1777%2C1333&w=1600&fit=max",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "f4370059-9266-4898-96c5-a1bcd7c336c4",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/40440467-9d67-42db-92ab-401386c5855b",
+              "assetId": "40440467-9d67-42db-92ab-401386c5855b",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/cb48a73a79541928a5bf98faea73593a495d314f-890x1109.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "45e3e88e-019f-4548-a75a-b6b183bf0ada",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/3963ac28-6c5a-4177-ae47-6e0c2c61f3ee",
+              "assetId": "3963ac28-6c5a-4177-ae47-6e0c2c61f3ee",
+              "label": "Algae Cooking Club",
+              "caption": "",
+              "alt": "Algae Cooking Club visual reference",
+              "source": "https://algaecookingclub.com/",
+              "fallbackSrc": "https://algaecookingclub.imgix.net/ACC-Nara_Last_Call-004-2.jpg?ixlib=js-3.8.0&q=75&auto=format%2Ccompress&max-w=2048&fp-x=0.6146&fp-y=0.4773&fit=crop&crop=focalpoint",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        }
+      ],
+      "studies": [
+        {
+          "id": "5b540852-bf72-411c-8bb8-88153c86b936",
+          "name": "Heyday Canning",
+          "category": "Flavored canned beans and soups",
+          "description": "Ingredient illustration and compact display type extend into sunny table photography. The can belongs to a generous food world, with convenience at its center.",
+          "website": "https://heydaycanning.com",
+          "instagram": "https://www.instagram.com/heydaycanningco/",
+          "images": [
+            {
+              "id": "8bea7497-d791-4338-ad63-ce87fbd801ae",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/1752da4d-e598-40ca-81b6-bc31616ff1e6",
+              "assetId": "1752da4d-e598-40ca-81b6-bc31616ff1e6",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/5ec06e13-489f-4bc9-a514-7bd2317cd223_Outline_Heyday-09.jpg?auto=compress%2Cformat&fit=max&w=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "d1f7ddf4-a6c2-498a-a5ef-6368e6f74b26",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/af1a5239-890d-42f0-9855-9b88fb7f2bd3",
+              "assetId": "af1a5239-890d-42f0-9855-9b88fb7f2bd3",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/4d81b03f-914c-4333-8ee3-4d193d6654fa_Outline_Heyday-07.jpg?auto=compress%2Cformat&fit=max&w=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "fec86093-b3ab-42c4-afcc-284be6950a8a",
+          "name": "Lentiful",
+          "category": "Instant lentil meals",
+          "description": "A consistent cup structure carries exuberant flavor variation. Ingredient drawings and abundant still lifes keep each recipe distinct within a recognizable family.",
+          "website": "https://eatlentiful.com",
+          "instagram": "https://www.instagram.com/lentiful/",
+          "images": [
+            {
+              "id": "0229fb6a-39d1-49e4-ae0f-e8a531c0747a",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/807be109-469c-4683-a519-9a1d7c3b2e78",
+              "assetId": "807be109-469c-4683-a519-9a1d7c3b2e78",
+              "label": "Lentiful",
+              "caption": "",
+              "alt": "Lentiful visual reference",
+              "source": "https://eatlentiful.com/",
+              "fallbackSrc": "https://eatlentiful.com/cdn/shop/files/HomestyleChiliSpoon.png?v=1753141598",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "74578c86-c388-4bb4-aae9-9147afda8d21",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/f6bcdb4a-c2f6-4971-902a-3ee7e08a7d78",
+              "assetId": "f6bcdb4a-c2f6-4971-902a-3ee7e08a7d78",
+              "label": "Lentiful",
+              "caption": "",
+              "alt": "Lentiful visual reference",
+              "source": "https://eatlentiful.com/",
+              "fallbackSrc": "https://eatlentiful.com/cdn/shop/files/MexicanGreenChileSpoon.png?v=1753141598",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "08865da4-4bd8-41bb-b6a7-e167a09c229c",
+          "name": "GOODLES",
+          "category": "Mac and cheese and pasta",
+          "description": "Pasta shapes and elastic lettering share a playful rhythm. Strong color blocks hold the range together while irreverent compositions give an everyday staple character.",
+          "website": "https://goodles.com",
+          "instagram": "https://www.instagram.com/allgoodles/",
+          "images": [
+            {
+              "id": "49618256-8251-405c-a849-65192c82a57d",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/74426a47-2728-498a-b48a-e861e773e772",
+              "assetId": "74426a47-2728-498a-b48a-e861e773e772",
+              "label": "GOODLES",
+              "caption": "",
+              "alt": "GOODLES visual reference",
+              "source": "https://www.goodles.com/",
+              "fallbackSrc": "https://images.ctfassets.net/bdj7cfajz56z/2h3GqvGNr9qDGwaiueAc8C/aa6be606836db4763fc1b8b3ab96d75e/Goodles_120225_RainbowStack_7.jpg?w=700&h=667&fl=progressive&q=80&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "394a2e86-3fb9-4a1c-8d44-14850deeae74",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/69fcb973-3eca-4cb0-80d7-68f35d2c244e",
+              "assetId": "69fcb973-3eca-4cb0-80d7-68f35d2c244e",
+              "label": "GOODLES",
+              "caption": "",
+              "alt": "GOODLES visual reference",
+              "source": "https://www.goodles.com/",
+              "fallbackSrc": "https://images.ctfassets.net/bdj7cfajz56z/56CoWVX3VFfSOSgppINxjb/a118718a7a19cf05f579d521e3d851d6/Goodles_112025_4324-Edit.png?w=700&h=548&q=80&fm=png",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delicious-ritual",
+      "name": "Delicious Ritual",
+      "description": "The pleasure of a simple kitchen routine: drop, stir and eat.",
+      "boards": [
+        {
+          "id": "f9a4946d-530e-4acb-81d1-1991a7a6c11e",
+          "title": "Everyday kitchen photography",
+          "description": "Close, unceremonious views make preparation feel familiar, easy and worth doing.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "5ebf1cb6-a4d2-4565-a8f8-0aedf760e8b3",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/a48429f9-113a-489a-a3e7-a3069751e1e0",
+              "assetId": "a48429f9-113a-489a-a3e7-a3069751e1e0",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/88124fb3-5aa2-4257-aaf4-c656e5fad984_Outline_Heyday-12.jpg?auto=compress%2Cformat&fit=max&w=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "c1757afd-cdb0-44a1-9c85-5c7ed2f34890",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/c10c297d-af9b-48ef-8ee2-e75e06d28600",
+              "assetId": "c10c297d-af9b-48ef-8ee2-e75e06d28600",
+              "label": "Cometeer",
+              "caption": "",
+              "alt": "Cometeer visual reference",
+              "source": "https://www.creech.co/projects/cometeer",
+              "fallbackSrc": "https://cdn.sanity.io/images/ql5emqcb/web-3-0/868264abc59eaf6c042a143bbcbc30244a7b8a4e-890x890.png?w=1600&q=85&fm=jpg",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "9a5f5a83-3116-4322-b653-890b284da4f7",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/dfb08c00-fdbf-4e3d-8ea8-34aefdc05c6d",
+              "assetId": "dfb08c00-fdbf-4e3d-8ea8-34aefdc05c6d",
+              "label": "Graza",
+              "caption": "",
+              "alt": "Graza visual reference",
+              "source": "https://www.takeagander.com/project/graza",
+              "fallbackSrc": "https://cdn.sanity.io/images/fkvzptmq/production/523adecca6716d871bff6340b85639d2a711c8fc-1392x1688.jpg?w=1392&h=1688&q=80&fit=max&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "57913c4a-5462-4eee-bb28-3558a7f79109",
+          "title": "Illustrated kitchen vernacular",
+          "description": "Loose linework and animated cookware give a simple routine a friendly personality.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "c6d03ec4-d512-434d-8f83-52d7dac37469",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/50e179bb-c34a-41a5-9a90-382b8fc6aab0",
+              "assetId": "50e179bb-c34a-41a5-9a90-382b8fc6aab0",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://www.flymaryfly.com/illustration/lazyfood",
+              "fallbackSrc": "https://cdn.prod.website-files.com/6160029329a3f681d23f91fc/6425dfa431e2e1565d8b026b_aff046158646235.639226bf37c69.png",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "dcc41621-45ff-4292-8c9f-ea5496faf5e4",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/fcbdbf75-1996-49a6-8991-24dc8b1cd337",
+              "assetId": "fcbdbf75-1996-49a6-8991-24dc8b1cd337",
+              "label": "Graza",
+              "caption": "",
+              "alt": "Graza visual reference",
+              "source": "https://www.takeagander.com/project/graza",
+              "fallbackSrc": "https://cdn.sanity.io/images/fkvzptmq/production/abba860379090e5bb0444fbe6b2980975a06e764-4224x2532.png?w=4224&h=2532&q=80&fit=max&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "33e1eb3a-44b4-4308-9ba4-6a37724bd7dd",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/9dd1f8ea-58f4-4e7e-a9fa-5ff13b001a0b",
+              "assetId": "9dd1f8ea-58f4-4e7e-a9fa-5ff13b001a0b",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://www.flymaryfly.com/illustration/lazyfood",
+              "fallbackSrc": "https://cdn.prod.website-files.com/6160029329a3f681d23f91fc/6425e3622dbd21da202d3f5d_Screenshot%202023-03-30%20at%2021.22.14.png",
+              "fit": "contain",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "5e2e9757-e6b6-4dd8-bf6f-8b27595bdf36",
+          "title": "Domestic still life",
+          "description": "Color and carefully chosen objects make the everyday kitchen feel personal and pleasurable.",
+          "layout": "editorial",
+          "images": [
+            {
+              "id": "cc1e8489-c9bf-4255-84f8-1fefa407a780",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/944218b7-331d-4aee-95ad-518716b5e607",
+              "assetId": "944218b7-331d-4aee-95ad-518716b5e607",
+              "label": "Graza",
+              "caption": "",
+              "alt": "Graza visual reference",
+              "source": "https://www.takeagander.com/project/graza",
+              "fallbackSrc": "https://cdn.sanity.io/images/fkvzptmq/production/e76531da13ab2e2b2c5c093fcf9b9b3d2ffe2ea5-2816x1688.jpg?w=2816&h=1688&q=80&fit=max&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "dc8a03ee-a63f-4172-8851-f2676708fd12",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/58968533-30e9-4445-a8e0-ae153216015c",
+              "assetId": "58968533-30e9-4445-a8e0-ae153216015c",
+              "label": "Heyday Canning",
+              "caption": "",
+              "alt": "Heyday Canning visual reference",
+              "source": "https://www.weareoutline.com/case-studies/heyday-canning-co",
+              "fallbackSrc": "https://images.prismic.io/outline/4ca8fe96-d453-47f7-9ee7-1c5cea719343_Outline_Heyday-04.jpg?auto=compress%2Cformat&fit=max&w=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "1d993afe-5e43-45f6-8290-ff52522b5dc6",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/d9f13d12-47c7-46ef-bbaf-b86a12999fe9",
+              "assetId": "d9f13d12-47c7-46ef-bbaf-b86a12999fe9",
+              "label": "Wobble",
+              "caption": "",
+              "alt": "Wobble visual reference",
+              "source": "https://eatwobble.com/",
+              "fallbackSrc": "https://eatwobble.com/cdn/shop/files/wobble-sour-berry-1.jpg?v=1783456154&width=1600",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        }
+      ],
+      "studies": [
+        {
+          "id": "1768d8e4-b453-4272-8931-c1c99089baa1",
+          "name": "Graza",
+          "category": "Extra-virgin olive oil",
+          "description": "Utility labels, loose characters and casual food photography share an easygoing point of view. Pouring, cooking and refilling become recognizable parts of everyday life.",
+          "website": "https://graza.co",
+          "instagram": "https://www.instagram.com/getgraza/",
+          "images": [
+            {
+              "id": "7b481201-81f5-4bda-9000-96605f6aafb2",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/6498222b-8bc9-4ec7-a389-de99075e26b7",
+              "assetId": "6498222b-8bc9-4ec7-a389-de99075e26b7",
+              "label": "Graza",
+              "caption": "",
+              "alt": "Graza visual reference",
+              "source": "https://www.takeagander.com/project/graza",
+              "fallbackSrc": "https://cdn.sanity.io/images/fkvzptmq/production/6c8869364fec81eddb1c61a73623b8b85e703d27-1440x932.gif?w=1440&h=932&q=80&fit=max&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "c08f1676-f12d-4330-a16e-040dea47d5fc",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/3e7bb527-a785-4bab-8d40-ca211c06d18b",
+              "assetId": "3e7bb527-a785-4bab-8d40-ca211c06d18b",
+              "label": "Graza",
+              "caption": "",
+              "alt": "Graza visual reference",
+              "source": "https://www.takeagander.com/project/graza",
+              "fallbackSrc": "https://cdn.sanity.io/images/fkvzptmq/production/acee278eb3009a0ba9a476f2e5bdb73c7a0854d0-3200x4000.jpg?w=3200&h=4000&q=80&fit=max&auto=format",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "cfe5c673-6bcc-4a59-84f8-9ea04ba66b16",
+          "name": "Lazy Food",
+          "category": "One-pot pasta meals",
+          "description": "Condensed type, cartoon cookware and close food textures work as one cheerful system. Simple preparation has its own visual language, with appetite always present.",
+          "website": "https://lazyfoodco.com",
+          "instagram": "https://www.instagram.com/thelazyfoodco/",
+          "images": [
+            {
+              "id": "074da4cc-59b2-482b-8571-08e0172bf6ca",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/ebb8b13c-df65-40fb-9a86-142eb6583772",
+              "assetId": "ebb8b13c-df65-40fb-9a86-142eb6583772",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://contra.com/p/LNNBlWmO-lazy-food-branding-and-packaging",
+              "fallbackSrc": "https://media.contra.com/image/upload/fl_progressive/q_auto:best/k0am91eaggofcuhovbbc.webp",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "d7f98368-01c4-4e14-82b5-3ca6bdfdc06c",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/9dd1f8ea-58f4-4e7e-a9fa-5ff13b001a0b",
+              "assetId": "9dd1f8ea-58f4-4e7e-a9fa-5ff13b001a0b",
+              "label": "Lazy Food",
+              "caption": "",
+              "alt": "Lazy Food visual reference",
+              "source": "https://www.flymaryfly.com/illustration/lazyfood",
+              "fallbackSrc": "https://cdn.prod.website-files.com/6160029329a3f681d23f91fc/6425e3622dbd21da202d3f5d_Screenshot%202023-03-30%20at%2021.22.14.png",
+              "fit": "contain",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        },
+        {
+          "id": "be80393a-34fb-4299-b75e-6367bc1901c0",
+          "name": "Algae Cooking Club",
+          "category": "Algae cooking oil",
+          "description": "Simple bottle graphics sit within an expressive food world. Familiar meals and considered table settings give a novel ingredient an everyday culinary role.",
+          "website": "https://algaecookingclub.com",
+          "instagram": "https://www.instagram.com/algaecookingclub/",
+          "images": [
+            {
+              "id": "9e5f7737-9c9b-4845-b286-23b7208ffbe5",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/7a6640f3-0539-4c57-8007-2c206553c146",
+              "assetId": "7a6640f3-0539-4c57-8007-2c206553c146",
+              "label": "Algae Cooking Club",
+              "caption": "",
+              "alt": "Algae Cooking Club visual reference",
+              "source": "https://algaecookingclub.com/",
+              "fallbackSrc": "https://cdn.shopify.com/s/files/1/0835/5397/6613/files/Chef-Grade-Algae-Cooking-Oil_V1.jpg?v=1762440433",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            },
+            {
+              "id": "6cfa6395-1683-41d7-95c1-d3f2e560b05c",
+              "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/3963ac28-6c5a-4177-ae47-6e0c2c61f3ee",
+              "assetId": "3963ac28-6c5a-4177-ae47-6e0c2c61f3ee",
+              "label": "Algae Cooking Club",
+              "caption": "",
+              "alt": "Algae Cooking Club visual reference",
+              "source": "https://algaecookingclub.com/",
+              "fallbackSrc": "https://algaecookingclub.imgix.net/ACC-Nara_Last_Call-004-2.jpg?ixlib=js-3.8.0&q=75&auto=format%2Ccompress&max-w=2048&fp-x=0.6146&fp-y=0.4773&fit=crop&crop=focalpoint",
+              "fit": "cover",
+              "focalX": 50,
+              "focalY": 50,
+              "size": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

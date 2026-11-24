@@ -41,7 +41,7 @@ def record(item):
     else:
         details = ''
     if item.get('review_route'):
-        details = link('review/index.html?open=' + quote(item['review_route'], safe='/'), 'Open catalog record') + details
+        details = link('review/legacy.html?open=' + quote(item['review_route'], safe='/'), 'Open catalog record') + details
     attachments = item.get('files', [])
     if attachments:
         links = ''.join(f'<li>{file_link(f)}</li>' for f in attachments)
@@ -77,7 +77,7 @@ def build():
     grouped = defaultdict(list)
     for item in manifest['entries']:
         grouped[item['section']].append(item)
-    order = ['inputs', 'notes', 'brief', 'references', 'naming', 'presentations']
+    order = ['inputs', 'notes', 'brief', 'references', 'boards', 'naming', 'presentations']
     order += [s for s in sections if s not in order]
     blocks = []
     nav = []
@@ -88,7 +88,7 @@ def build():
 
     def project_file(label, path, description, metric):
         view = {'input-register': 'inputs', 'pin-catalog': 'ledger', 'board-study': 'board/1'}[metric]
-        review = link('review/index.html?open=' + quote(view, safe='/'), label)
+        review = link('review/legacy.html?open=' + quote(view, safe='/'), label)
         return (f'<article class="record" data-metric="{esc(metric)}"><div class="category">Private review</div><div class="record-main">'
                 f'<h3>{review}</h3><p>{esc(description)}</p><details><summary>File location</summary>'
                 f'<code>NkdPk/{esc(path)}</code></details></div></article>')
@@ -108,9 +108,10 @@ def build():
                                    '149 Pinterest pins and additional brand references.', 'pin-catalog')
             add(key, 'Visual references', catalog + ''.join(record(i) for i in items))
         elif key == 'presentations':
-            study = project_file('NakedPak visual reference study', manifest['project']['private_study'],
-                                 '41 boards on the product, visual references and design directions.', 'board-study')
-            add(key, 'Presentations', study + ''.join(record(i) for i in items))
+            study = project_file('Original visual reference study', manifest['project']['private_study'],
+                                 'Earlier 41-board study on the product, visual references and design directions.', 'board-study')
+            current = '<article class="record" data-metric="current-review"><div class="category">Current review</div><div class="record-main"><h3><a href="review/">NakedPak review gallery</a></h3><p>23 decks and 315 slides across brand, Miso Mushroom, packaging and strategy, including Second Sitting and Cut Stock. Use the shared review code to view. Owner sign-in is separate for editing.</p></div></article>'
+            add(key, 'Presentations', current + study + ''.join(record(i) for i in items))
         elif items:
             add(key, LABELS.get(key, sections[key]['title']), ''.join(record(i) for i in items))
 
@@ -120,7 +121,7 @@ def build():
         archive.append(f'<li{anchor}>{link(FOLDERS + settings["folder"], settings["folder"].rstrip("/"))}</li>')
     blocks += [log_block(manifest), section('files', 'Files', '<details><summary>Project folders</summary><ul class="folder-list">'
                                            + ''.join(archive) + '</ul></details>')]
-    nav += [link('#log', 'Log'), link('#files', 'Files')]
+    nav += [link('review/', 'Current Review'), link('#log', 'Log'), link('#files', 'Files')]
     title = esc(manifest['project']['name'])
     doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -129,7 +130,7 @@ def build():
 <body class="index"><a class="skip" href="#main">Skip to content</a><div class="index-shell">
 <aside><a class="home" href="#top">{title}</a><div class="section-nav"><nav aria-label="Sections">{''.join(nav)}</nav></div>
 {link(REPO, 'Repository ↗')}</aside><main id="main"><header id="top" class="index-mast"><p>ø co. &nbsp; / &nbsp; Project index</p>
-<h1>{title}</h1><p>{esc(manifest['project']['intro'])}</p></header>{''.join(blocks)}</main></div></body></html>"""
+<h1>{title}</h1><p>{esc(manifest['project']['intro'])}</p><p><a href="boards/"><strong>Open the Visual Boards</strong></a><br>Three territories, nine boards and nine brand studies.</p><p><a href="review/">Open the Current Review</a><br>23 decks · 315 slides · shared review code for viewing.</p></header>{''.join(blocks)}</main></div></body></html>"""
     (ROOT / 'index.html').write_text(doc + '\n')
 
 
@@ -139,3 +140,4 @@ if __name__ == '__main__':
     parser.parse_args()
     build()
     print('Built NakedPak project index.')
+
