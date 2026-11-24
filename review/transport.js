@@ -50,9 +50,24 @@
        return user.id;
      }catch(e){session=null;throw e}
    }
+   async function pinCatalog(pin){
+     if(!/^\d{4}$/.test(pin))throw Error('Enter a four-digit code.');
+     const response=await request(c.projectOrigin+'/functions/v1/nakedpak-review-pin',{method:'POST',headers:{apikey:c.publishableKey,'content-type':'application/json'},body:JSON.stringify({pin}),cache:'no-store',credentials:'omit',referrerPolicy:'no-referrer',redirect:'error'});
+     if(response.status===401)throw Error('That code didn’t match.');
+     if(response.status===429)throw Error('Too many attempts. Please wait '+Math.max(1,Math.min(1440,Math.ceil((Number(response.headers.get('Retry-After'))||60)/60)))+' minute(s) and try again.');
+     if(!response.ok)throw Error('The review is temporarily unavailable.');
+     const grant=await response.json(), url=new URL(grant.url);
+     const token=url.searchParams.get('token');
+     if(url.origin!==c.projectOrigin||url.username||url.password||url.hash||url.pathname!=='/storage/v1/object/sign/'+c.bucket+'/'+c.catalogPath||[...url.searchParams].length!==1||typeof token!=='string'||!/^[-.\w]{20,2048}$/.test(token))throw Error('Invalid download grant.');
+     const resource=await request(url.href,{cache:'no-store',credentials:'omit',referrerPolicy:'no-referrer',redirect:'error'});
+     if(!resource.ok)throw Error('Could not load the review. Enter your code to retry.');
+     return decodeCatalog(resource);
+   }
    async function catalog(){
      const path='/storage/v1/object/authenticated/'+c.bucket+'/'+c.catalogPath;
-     let r=await secured(path);
+     return decodeCatalog(await secured(path));
+   }
+   function decodeCatalog(r){
      if(c.catalogPath.endsWith('.gz')){
        if(typeof DecompressionStream==='undefined') throw Error('This browser cannot open the compressed gallery. Update your browser.');
        if((r.headers.get('content-encoding')||'').toLowerCase()!=='gzip'){
@@ -85,7 +100,7 @@
        if(!/^[A-Za-z0-9_-]{43}$/.test(challenge))throw Error('Could not start secure sign-in.');
        return api('/auth/v1/otp?redirect_to='+encodeURIComponent(CALLBACK),{method:'POST',auth:false,body:{email,create_user:false,code_challenge:challenge,code_challenge_method:'s256'}})
      },
-     exchange,catalog,getSettings,putSettings,
+     exchange,catalog,pinCatalog,getSettings,putSettings,
      async exit(){if(!session)return;try{await secured('/auth/v1/logout?scope=local',{method:'POST'})}finally{++generation;session=null}},
      clear(){++generation;session=null},
      active:()=>!!session

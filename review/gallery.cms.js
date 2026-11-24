@@ -1,5 +1,6 @@
 (()=>{'use strict';
 const D=JSON.parse(document.getElementById('data').textContent), $=s=>document.getElementById(s), Q=(tag,cls,txt)=>{let a=document.createElement(tag); if(cls)a.className=cls;if(txt)a.textContent=txt;return a};
+const readOnly=globalThis.NakedPakReadOnly===true;
 const CMS=globalThis.NakedPakCMS,S=CMS.createStore({storage:globalThis.NakedPakCMSStorage});
 let current=D.decks[0], page=current?.start??0, group='All', origin=null, dialog=$('lightbox'), stage=$('stage'), historyPages=new Map(), startX=0, mode='active';
 const keys=d=>CMS.deckKey(d);
@@ -64,6 +65,7 @@ function fillSelect(){
   $('cms-rename').disabled=$('cms-delete').disabled=!mg.options.length;
 }
 function act(fn,msg){try{fn();setStatus(msg);$('cms-undo').disabled=false;resetMode();}catch(e){setStatus(e.message)}}
+if(!readOnly){
 $('cms-scope').addEventListener('change',()=>current&&refreshActions());
 $('cms-mode').addEventListener('change',e=>{mode=e.target.value;group='All';showMode();renderView()});
 $('cms-flag').onclick=()=>{const k=target(),was=S.read(k).flag;act(()=>S.toggleFlag(k),was?'Flag removed.':'Flag added.')};
@@ -75,6 +77,8 @@ $('cms-undo').onclick=()=>{if(S.undo()){resetMode();setStatus('Undid last change
 $('cms-export').onclick=()=>{const href=URL.createObjectURL(new Blob([S.export()],{type:'application/json'}));const a=Q('a');a.href=href;a.download='nakedpak-review-organization.json';a.click();setTimeout(()=>URL.revokeObjectURL(href),1500);setStatus('Exported review settings only.')};
 $('cms-import-file').addEventListener('change',async e=>{const f=e.target.files?.[0];if(!f)return;try{if(f.size>CMS.LIMIT)throw Error('This backup is too large.');const candidate=CMS.parse(await f.text());$('cms-import-confirm').onclick=()=>{act(()=>S.replace(candidate),'Backup imported.');$('cms-confirm').close();};$('cms-confirm').showModal()}catch(err){setStatus(err.message)}finally{e.target.value=''}});
 $('cms-import-cancel').onclick=()=>$('cms-confirm').close();
+}
+
 for(let g of groups){let b=Q('button','',g);b.dataset.group=g;b.onclick=()=>{group=g;renderView()};$('filters').append(b)}
 for(let [id,tag,title,key] of D.hero){let b=Q('button','hero-item');b.append(imgs(key,title,false));let t=Q('span','hero-cap');let text=Q('span','',title);text.prepend(Q('span','hero-type',tag));t.append(text,Q('span','','↘'));b.append(t);b.onclick=()=>{const d=D.decks.find(d=>d.id===id);if(!d)return;group='All';mode=d.slides.some((s,i)=>S.visible(keys(d),itemKey(d,i),'active'))?'active':'archived';resetMode();select(id,true)};$('heroes').append(b)}
 function full(){if(!current)return;origin=document.activeElement;dialog.showModal();$('lightimage').classList.remove('zoomed');$('zoom').setAttribute('aria-pressed','false');figure();$('close').focus()}

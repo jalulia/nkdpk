@@ -10,11 +10,15 @@
 </head><body>
 <section class="auth-gate" id="auth-gate" aria-labelledby="sign-in-title">
 <p class="mono">Private workspace</p><h1 id="sign-in-title">Review</h1>
+<p>Enter the four-digit review code to open the gallery.</p>
+<form id="pin-form" action="#"><label for="review-pin">Review code</label><div class="auth-line"><input id="review-pin" type="password" inputmode="numeric" autocomplete="off" pattern="[0-9]{4}" maxlength="4" required><button type="submit">Open gallery</button></div></form>
+<output id="pin-status" role="status" aria-live="polite"></output>
+<details id="owner-sign-in"><summary>Owner sign-in to edit</summary>
 <p>Enter the authorized email address to receive a secure sign-in link.</p>
 <form id="auth-send" action="#"><label for="auth-email">Email address</label><div class="auth-line"><input id="auth-email" type="email" autocomplete="email" maxlength="254" required><button type="submit">Email sign-in link</button></div></form>
 <p>Open the link from your email in this same browser and profile.</p>
 <output id="auth-status" role="status" aria-live="polite"></output>
-<p><a href="./legacy.html">Open the original shared study</a></p>
+</details><p><a href="./legacy.html">Open the original shared study</a></p>
 </section><div id="private-pane" hidden><div class="private-top"><span id="sync-status" role="status" aria-live="polite"></span><button id="auth-logout" type="button">Sign out</button></div>
 <a class="skip" href="#viewer">Skip to slides</a><main>
 <header class="top"><a href="#top" class="wordmark" id="top">NakedPak<span>.</span></a><nav aria-label="Page"><a href="#viewer">Slides</a><a href="#library">Originals</a></nav><span class="note">PRIVATE REVIEW · 11/22/26</span></header>

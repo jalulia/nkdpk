@@ -46,3 +46,9 @@ dialog.cms-confirm p{font-size:.85rem}
 .auth-gate button:focus-visible,.private-top button:focus-visible,.auth-gate input:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 #auth-status{min-height:1.5em;display:block;margin-top:15px}
 .private-top{margin:0 auto;padding:8px max(20px,4.7vw);display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line);font-size:.81rem}
+
+#cms[hidden]{display:none!important}
+#owner-sign-in{margin-top:22px}
+#owner-sign-in summary{cursor:pointer;min-height:44px;display:list-item;padding:8px 0;box-sizing:border-box}
+#pin-status{display:block;margin-top:8px;min-height:1.45em}
+#review-pin{letter-spacing:.24em;font-variant-numeric:tabular-nums}
