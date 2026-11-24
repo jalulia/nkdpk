@@ -178,6 +178,7 @@ function renderBoard(container,board,territory){
 }
 function renderStudies(container,territory){
  if(canEdit()){const bar=el('div','board-head');bar.append(el('h2','','Relevant brand studies'),button('Add brand study',()=>addStudy(territory)));container.append(bar);}
+ const grid=el('div','studies-grid');container.append(grid);
  for(const study of territory.studies){
   const article=el('article','brand-study');article.dataset.studyId=study.id;
   const photos=el('div','brand-pictures count-'+study.images.length+(study.images.length>2?' many':''));study.images.forEach(i=>photos.append(imageNode(i,study,'study')));dropZone(photos,study.id);
@@ -186,7 +187,7 @@ function renderStudies(container,territory){
   const links=el('div','brand-links');for(const [url,label] of [[safeURL(study.website),safeURL(study.website)?new URL(study.website).hostname.replace(/^www\./,''):''],[safeURL(study.instagram),safeURL(study.instagram)?'@'+new URL(study.instagram).pathname.split('/').filter(Boolean)[0]:'']])if(url){const a=el('a','',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}
   copy.append(links);
   if(canEdit()){const controls=el('div','brand-edit-tools');controls.append(button('Edit study',()=>{selection={kind:'study',id:study.id};renderInspector();}),button('Add images',()=>chooseUploads(study.id)),button('Move earlier',()=>moveStudy(study.id,-1)),button('Move later',()=>moveStudy(study.id,1)));copy.append(controls);article.draggable=true;article.ondragstart=e=>{if(e.target.closest('.image-frame'))return;dragData(e,{kind:'study',id:study.id});};article.ondragover=e=>e.preventDefault();article.ondrop=e=>{const d=readDrag(e);if(d?.kind==='study'){e.preventDefault();change(()=>territory.studies=move(territory.studies,d.id,territory.studies.findIndex(s=>s.id===study.id)));}};}
-  article.append(photos,copy);container.append(article);
+  article.append(photos,copy);grid.append(article);
  }
  if(!territory.studies.length)container.append(el('div','empty-board','No brand studies in this territory yet.'));
 }
@@ -313,7 +314,7 @@ document.addEventListener('keydown',e=>{
 });
 window.addEventListener('beforeunload',e=>{if(dirty||saving||loading){e.preventDefault();e.returnValue='';}});
 window.addEventListener('online',()=>{if(dirty)void flush();});
-window.addEventListener('hashchange',()=>{parseRoute();render();renderInspector();});
+window.addEventListener('hashchange',()=>{if(location.hash.startsWith('#edit=')){const key=decodeURIComponent(location.hash.slice(6));history.replaceState(null,'',location.pathname);void unlock(key);return;}parseRoute();render();renderInspector();});
 async function init(){
  let key='';if(location.hash.startsWith('#edit=')){key=decodeURIComponent(location.hash.slice(6));history.replaceState(null,'',location.pathname);}
  try{const saved=JSON.parse(sessionStorage.getItem(SESSION)||'null');if(saved?.expiresAt>Date.now())token=saved.token;else sessionStorage.removeItem(SESSION);}catch{}
