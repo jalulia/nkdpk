@@ -376,6 +376,88 @@
       "project_path": "02-references/REF-003-soupapotamus/index.html",
       "files": [],
       "review_route": "reference/soupapotamus"
+    },
+    {
+      "id": "PRS-001",
+      "section": "presentations",
+      "kind": "presentation",
+      "status": "superseded",
+      "category": "Board read",
+      "title": "Board read v06",
+      "date": "2026-11-24",
+      "added_by": "Julia",
+      "source": {
+        "name": "HTML",
+        "url": "07-presentations/2026-11-24-board-read-v06/index.html"
+      },
+      "description": "The 341-pin reference board read as eighteen visual languages, with visual tensions, six brand studies and the name designs. Paginated.",
+      "note": "please also put Read V06 and this on the jalulia github nkpk. v06 does not need CMS editable.",
+      "tags": [
+        "board read",
+        "visual languages",
+        "names"
+      ],
+      "files": [
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/index.html",
+          "caption": "Board read v06"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/names.html",
+          "caption": "Name designs v06"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/nkdpk-board-read-v06.json",
+          "caption": "Board read data (JSON)"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/nkdpk-names-v06.json",
+          "caption": "Names data (JSON)"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/nkdpk-pin-notes.json",
+          "caption": "Notes on all 341 pins (JSON)"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/manifest.csv",
+          "caption": "Pin manifest (CSV)"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v06/manifest.json",
+          "caption": "Pin manifest (JSON)"
+        }
+      ]
+    },
+    {
+      "id": "PRS-002",
+      "section": "presentations",
+      "kind": "presentation",
+      "status": "current",
+      "category": "Board read",
+      "title": "Board read v07",
+      "date": "2026-11-24",
+      "added_by": "Julia",
+      "source": {
+        "name": "HTML",
+        "url": "07-presentations/2026-11-24-board-read-v07/index.html"
+      },
+      "description": "Nineteen visual languages in four parts, each with lead images and a range dial; visual tensions; six brand studies; direction; names. One page per part.",
+      "note": "please also put Read V06 and this on the jalulia github nkpk. v06 does not need CMS editable.",
+      "tags": [
+        "board read",
+        "visual languages",
+        "names"
+      ],
+      "files": [
+        {
+          "path": "07-presentations/2026-11-24-board-read-v07/index.html",
+          "caption": "Board read v07"
+        },
+        {
+          "path": "07-presentations/2026-11-24-board-read-v07/nkdpk-board-read-v07.json",
+          "caption": "Board read data (JSON)"
+        }
+      ]
     }
   ],
   "log": [
@@ -417,6 +499,15 @@
       "text": "Cataloged Soupapotamus.",
       "refs": [
         "REF-003"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Added",
+      "text": "Board reads v06 and v07 added to Presentations. Shared images in assets/board-read.",
+      "refs": [
+        "PRS-001",
+        "PRS-002"
       ]
     }
   ]

@@ -1,0 +1,784 @@
+[
+ {
+  "name": "Gosh",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Soft serif, outlined and tilted",
+  "follows_pin": "141",
+  "matched_to_pins": [
+   "141",
+   "003",
+   "213",
+   "266"
+  ],
+  "type": "Caprasimo with an outline and a pink second plate. The pink was matched by eye.",
+  "canvas": [
+   560,
+   540
+  ]
+ },
+ {
+  "name": "Gosh",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Blob wordmark on yellow",
+  "follows_pin": "229",
+  "matched_to_pins": [
+   "229",
+   "230",
+   "124",
+   "154"
+  ],
+  "type": "Modak. The reference is custom lettering.",
+  "canvas": [
+   560,
+   560
+  ]
+ },
+ {
+  "name": "Abra",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Script on green",
+  "follows_pin": "017",
+  "matched_to_pins": [
+   "017",
+   "211",
+   "150",
+   "016"
+  ],
+  "type": "Yellowtail. The reference is a specimen for a script typeface.",
+  "canvas": [
+   620,
+   410
+  ]
+ },
+ {
+  "name": "Abra",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Wide caps on food",
+  "follows_pin": "094",
+  "matched_to_pins": [
+   "094",
+   "304",
+   "305",
+   "090"
+  ],
+  "type": "Unbounded 500. The photograph is a crop of pin 094 or pin 097.",
+  "canvas": [
+   460,
+   580
+  ]
+ },
+ {
+  "name": "Zowie",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Geometric blob wordmark",
+  "follows_pin": "124",
+  "matched_to_pins": [
+   "124",
+   "229",
+   "230",
+   "154"
+  ],
+  "type": "Unbounded 900 with slits cut across the bowls. The reference is custom lettering.",
+  "canvas": [
+   560,
+   560
+  ]
+ },
+ {
+  "name": "Zowie",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Hand-cut caps",
+  "follows_pin": "215",
+  "matched_to_pins": [
+   "215",
+   "137",
+   "250",
+   "290"
+  ],
+  "type": "Londrina Solid 900 with a cut-edge filter. The reference is hand-cut lettering.",
+  "canvas": [
+   520,
+   520
+  ]
+ },
+ {
+  "name": "Heatnik",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Two-line canning gothic",
+  "follows_pin": "301",
+  "matched_to_pins": [
+   "301",
+   "298",
+   "300",
+   "186"
+  ],
+  "type": "Anton.",
+  "canvas": [
+   620,
+   410
+  ]
+ },
+ {
+  "name": "Heatnik",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Wordmark and typewriter",
+  "follows_pin": "162",
+  "matched_to_pins": [
+   "162",
+   "064",
+   "069",
+   "054"
+  ],
+  "type": "Unbounded 700 and Special Elite.",
+  "canvas": [
+   500,
+   560
+  ]
+ },
+ {
+  "name": "Razzle",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Script in ovals",
+  "follows_pin": "211",
+  "matched_to_pins": [
+   "211",
+   "150",
+   "016",
+   "017"
+  ],
+  "type": "Oleo Script Swash Caps.",
+  "canvas": [
+   500,
+   540
+  ]
+ },
+ {
+  "name": "Razzle",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Hand-cut caps",
+  "follows_pin": "215",
+  "matched_to_pins": [
+   "215",
+   "137",
+   "250",
+   "290"
+  ],
+  "type": "Londrina Solid 900 with a cut-edge filter. The reference is hand-cut lettering.",
+  "canvas": [
+   520,
+   520
+  ]
+ },
+ {
+  "name": "Secret Supper Club",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Red label with side columns",
+  "follows_pin": "305",
+  "matched_to_pins": [
+   "305",
+   "304",
+   "090",
+   "094"
+  ],
+  "type": "Anton, and Archivo at width 62.",
+  "canvas": [
+   520,
+   460
+  ]
+ },
+ {
+  "name": "Secret Supper Club",
+  "territory": "Kitchen Alchemy",
+  "grammar": "One-ink notice",
+  "follows_pin": "120",
+  "matched_to_pins": [
+   "120",
+   "122",
+   "189",
+   "152"
+  ],
+  "type": "Nunito 600 and Archivo 700. The reference lowercase is closer to ITC Avant Garde.",
+  "canvas": [
+   480,
+   600
+  ]
+ },
+ {
+  "name": "Little Wonder",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Pastel pouch",
+  "follows_pin": "033",
+  "matched_to_pins": [
+   "033",
+   "107",
+   "109",
+   "285"
+  ],
+  "type": "Archivo 800, and Archivo 400 at width 62.",
+  "canvas": [
+   420,
+   560
+  ]
+ },
+ {
+  "name": "Little Wonder",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Two small lines and a script word",
+  "follows_pin": "213",
+  "matched_to_pins": [
+   "213",
+   "003",
+   "141",
+   "266"
+  ],
+  "type": "Caprasimo and Yellowtail. The reference serif is lighter.",
+  "canvas": [
+   520,
+   520
+  ]
+ },
+ {
+  "name": "Hot Mess",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Vertical wordmark over a photograph",
+  "follows_pin": "280",
+  "matched_to_pins": [
+   "280",
+   "130",
+   "157",
+   "200"
+  ],
+  "type": "DM Serif Display. The photograph is pin 097.",
+  "canvas": [
+   440,
+   600
+  ]
+ },
+ {
+  "name": "Hot Mess",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Warped letters, tone on tone",
+  "follows_pin": "116",
+  "matched_to_pins": [
+   "116",
+   "087",
+   "237",
+   "312"
+  ],
+  "type": "Bagel Fat One, warped, under Archivo 900 at width 62.",
+  "canvas": [
+   520,
+   560
+  ]
+ },
+ {
+  "name": "Become",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Wide caps on food",
+  "follows_pin": "094",
+  "matched_to_pins": [
+   "094",
+   "304",
+   "305",
+   "090"
+  ],
+  "type": "Unbounded 500. The photograph is a crop of pin 094 or pin 097.",
+  "canvas": [
+   460,
+   580
+  ]
+ },
+ {
+  "name": "Become",
+  "territory": "Kitchen Alchemy",
+  "grammar": "Wordmark and typewriter",
+  "follows_pin": "162",
+  "matched_to_pins": [
+   "162",
+   "064",
+   "069",
+   "054"
+  ],
+  "type": "Unbounded 700 and Special Elite.",
+  "canvas": [
+   500,
+   560
+  ]
+ },
+ {
+  "name": "Mingle",
+  "territory": "All Together Now",
+  "grammar": "Outline letters, interlocked",
+  "follows_pin": "122",
+  "matched_to_pins": [
+   "122",
+   "120",
+   "189",
+   "152"
+  ],
+  "type": "Bagel Fat One, outline only.",
+  "canvas": [
+   520,
+   520
+  ]
+ },
+ {
+  "name": "Mingle",
+  "territory": "All Together Now",
+  "grammar": "Checker pack",
+  "follows_pin": "239",
+  "matched_to_pins": [
+   "239",
+   "073",
+   "166",
+   "147"
+  ],
+  "type": "Anton, Yellowtail, and Archivo at width 62.",
+  "canvas": [
+   420,
+   600
+  ]
+ },
+ {
+  "name": "Smoosh",
+  "territory": "All Together Now",
+  "grammar": "Warped letters, tone on tone",
+  "follows_pin": "116",
+  "matched_to_pins": [
+   "116",
+   "087",
+   "237",
+   "312"
+  ],
+  "type": "Bagel Fat One, warped, under Archivo 900 at width 62.",
+  "canvas": [
+   520,
+   560
+  ]
+ },
+ {
+  "name": "Smoosh",
+  "territory": "All Together Now",
+  "grammar": "Blob wordmark on yellow",
+  "follows_pin": "229",
+  "matched_to_pins": [
+   "229",
+   "230",
+   "124",
+   "154"
+  ],
+  "type": "Modak. The reference is custom lettering.",
+  "canvas": [
+   560,
+   560
+  ]
+ },
+ {
+  "name": "Cozy",
+  "territory": "All Together Now",
+  "grammar": "Monoline script on red",
+  "follows_pin": "016",
+  "matched_to_pins": [
+   "016",
+   "150",
+   "211",
+   "017"
+  ],
+  "type": "Sacramento, thickened with a stroke. The reference is a custom monoline script.",
+  "canvas": [
+   600,
+   460
+  ]
+ },
+ {
+  "name": "Cozy",
+  "territory": "All Together Now",
+  "grammar": "Pastel pouch",
+  "follows_pin": "033",
+  "matched_to_pins": [
+   "033",
+   "107",
+   "109",
+   "285"
+  ],
+  "type": "Archivo 800, and Archivo 400 at width 62.",
+  "canvas": [
+   420,
+   560
+  ]
+ },
+ {
+  "name": "Cahoots",
+  "territory": "All Together Now",
+  "grammar": "White carton, black gothic",
+  "follows_pin": "064",
+  "matched_to_pins": [
+   "064",
+   "069",
+   "054",
+   "162"
+  ],
+  "type": "Anton, Roboto Serif 400 and Special Elite.",
+  "canvas": [
+   520,
+   560
+  ]
+ },
+ {
+  "name": "Cahoots",
+  "territory": "All Together Now",
+  "grammar": "Condensed serif poster",
+  "follows_pin": "011",
+  "matched_to_pins": [
+   "011",
+   "139",
+   "126",
+   "143"
+  ],
+  "type": "Roboto Serif 900 at width 50, set at 80% horizontal scale. The reference face is a condensed old-style bold and was not identified.",
+  "canvas": [
+   500,
+   620
+  ]
+ },
+ {
+  "name": "One",
+  "territory": "All Together Now",
+  "grammar": "Slab caps, one word a line",
+  "follows_pin": "126",
+  "matched_to_pins": [
+   "126",
+   "011",
+   "139",
+   "143"
+  ],
+  "type": "Roboto Serif 700 caps. The reference is a Clarendon-style face.",
+  "canvas": [
+   440,
+   640
+  ]
+ },
+ {
+  "name": "One",
+  "territory": "All Together Now",
+  "grammar": "White carton, navy wordmark, bowl",
+  "follows_pin": "175",
+  "matched_to_pins": [
+   "175",
+   "244",
+   "219",
+   "320"
+  ],
+  "type": "DM Serif Display. The reference wordmark is custom.",
+  "canvas": [
+   480,
+   580
+  ]
+ },
+ {
+  "name": "Caboodle",
+  "territory": "All Together Now",
+  "grammar": "One-ink notice",
+  "follows_pin": "120",
+  "matched_to_pins": [
+   "120",
+   "122",
+   "189",
+   "152"
+  ],
+  "type": "Nunito 600 and Archivo 700. The reference lowercase is closer to ITC Avant Garde.",
+  "canvas": [
+   480,
+   600
+  ]
+ },
+ {
+  "name": "Caboodle",
+  "territory": "All Together Now",
+  "grammar": "White carton, navy wordmark, bowl",
+  "follows_pin": "175",
+  "matched_to_pins": [
+   "175",
+   "244",
+   "219",
+   "320"
+  ],
+  "type": "DM Serif Display. The reference wordmark is custom.",
+  "canvas": [
+   480,
+   580
+  ]
+ },
+ {
+  "name": "Part & Parcel",
+  "territory": "All Together Now",
+  "grammar": "Green caps and a line bowl",
+  "follows_pin": "147",
+  "matched_to_pins": [
+   "147",
+   "239",
+   "073",
+   "166"
+  ],
+  "type": "Anton.",
+  "canvas": [
+   520,
+   520
+  ]
+ },
+ {
+  "name": "Part & Parcel",
+  "territory": "All Together Now",
+  "grammar": "Red label with side columns",
+  "follows_pin": "305",
+  "matched_to_pins": [
+   "305",
+   "304",
+   "090",
+   "094"
+  ],
+  "type": "Anton, and Archivo at width 62.",
+  "canvas": [
+   520,
+   460
+  ]
+ },
+ {
+  "name": "Pot Twist",
+  "territory": "Delicious Ritual",
+  "grammar": "Condensed caps over a bowl",
+  "follows_pin": "304",
+  "matched_to_pins": [
+   "304",
+   "305",
+   "090",
+   "094"
+  ],
+  "type": "Anybody 900 at width 50. The reference face is narrower.",
+  "canvas": [
+   600,
+   400
+  ]
+ },
+ {
+  "name": "Pot Twist",
+  "territory": "Delicious Ritual",
+  "grammar": "Cut caps, tile and pot",
+  "follows_pin": "137",
+  "matched_to_pins": [
+   "137",
+   "215",
+   "250",
+   "290"
+  ],
+  "type": "Amatic SC 700, thickened, with a cut-edge filter. The reference is a hand-cut print.",
+  "canvas": [
+   480,
+   600
+  ]
+ },
+ {
+  "name": "Stir Crazy",
+  "territory": "Delicious Ritual",
+  "grammar": "Script over fat caps",
+  "follows_pin": "150",
+  "matched_to_pins": [
+   "150",
+   "016",
+   "211",
+   "017"
+  ],
+  "type": "Oleo Script Swash Caps over Bagel Fat One. The reference is custom lettering.",
+  "canvas": [
+   440,
+   580
+  ]
+ },
+ {
+  "name": "Stir Crazy",
+  "territory": "Delicious Ritual",
+  "grammar": "Condensed serif poster",
+  "follows_pin": "011",
+  "matched_to_pins": [
+   "011",
+   "139",
+   "126",
+   "143"
+  ],
+  "type": "Roboto Serif 900 at width 50, set at 80% horizontal scale. The reference face is a condensed old-style bold and was not identified.",
+  "canvas": [
+   500,
+   620
+  ]
+ },
+ {
+  "name": "Goodie Bag",
+  "territory": "Delicious Ritual",
+  "grammar": "Script over fat caps",
+  "follows_pin": "150",
+  "matched_to_pins": [
+   "150",
+   "016",
+   "211",
+   "017"
+  ],
+  "type": "Oleo Script Swash Caps over Bagel Fat One. The reference is custom lettering.",
+  "canvas": [
+   440,
+   580
+  ]
+ },
+ {
+  "name": "Goodie Bag",
+  "territory": "Delicious Ritual",
+  "grammar": "Checker pack",
+  "follows_pin": "239",
+  "matched_to_pins": [
+   "239",
+   "073",
+   "166",
+   "147"
+  ],
+  "type": "Anton, Yellowtail, and Archivo at width 62.",
+  "canvas": [
+   420,
+   600
+  ]
+ },
+ {
+  "name": "Pot Drop",
+  "territory": "Delicious Ritual",
+  "grammar": "Two-line canning gothic",
+  "follows_pin": "301",
+  "matched_to_pins": [
+   "301",
+   "298",
+   "300",
+   "186"
+  ],
+  "type": "Anton.",
+  "canvas": [
+   620,
+   410
+  ]
+ },
+ {
+  "name": "Pot Drop",
+  "territory": "Delicious Ritual",
+  "grammar": "Vertical wordmark over a photograph",
+  "follows_pin": "280",
+  "matched_to_pins": [
+   "280",
+   "130",
+   "157",
+   "200"
+  ],
+  "type": "DM Serif Display. The photograph is pin 097.",
+  "canvas": [
+   440,
+   600
+  ]
+ },
+ {
+  "name": "Lickety",
+  "territory": "Delicious Ritual",
+  "grammar": "Geometric blob wordmark",
+  "follows_pin": "124",
+  "matched_to_pins": [
+   "124",
+   "229",
+   "230",
+   "154"
+  ],
+  "type": "Unbounded 900 with slits cut across the bowls. The reference is custom lettering.",
+  "canvas": [
+   560,
+   560
+  ]
+ },
+ {
+  "name": "Lickety",
+  "territory": "Delicious Ritual",
+  "grammar": "White carton, black gothic",
+  "follows_pin": "064",
+  "matched_to_pins": [
+   "064",
+   "069",
+   "054",
+   "162"
+  ],
+  "type": "Anton, Roboto Serif 400 and Special Elite.",
+  "canvas": [
+   520,
+   560
+  ]
+ },
+ {
+  "name": "Simma",
+  "territory": "Delicious Ritual",
+  "grammar": "Monoline script on red",
+  "follows_pin": "016",
+  "matched_to_pins": [
+   "016",
+   "150",
+   "211",
+   "017"
+  ],
+  "type": "Sacramento, thickened with a stroke. The reference is a custom monoline script.",
+  "canvas": [
+   600,
+   460
+  ]
+ },
+ {
+  "name": "Simma",
+  "territory": "Delicious Ritual",
+  "grammar": "Cut caps, tile and pot",
+  "follows_pin": "137",
+  "matched_to_pins": [
+   "137",
+   "215",
+   "250",
+   "290"
+  ],
+  "type": "Amatic SC 700, thickened, with a cut-edge filter. The reference is a hand-cut print.",
+  "canvas": [
+   480,
+   600
+  ]
+ },
+ {
+  "name": "Drop In",
+  "territory": "Delicious Ritual",
+  "grammar": "Soft serif, two parts and a pill",
+  "follows_pin": "003",
+  "matched_to_pins": [
+   "003",
+   "141",
+   "213",
+   "266"
+  ],
+  "type": "Caprasimo. The reference is in the Cooper Black family.",
+  "canvas": [
+   500,
+   620
+  ]
+ },
+ {
+  "name": "Drop In",
+  "territory": "Delicious Ritual",
+  "grammar": "Condensed caps over a bowl",
+  "follows_pin": "304",
+  "matched_to_pins": [
+   "304",
+   "305",
+   "090",
+   "094"
+  ],
+  "type": "Anybody 900 at width 50. The reference face is narrower.",
+  "canvas": [
+   600,
+   400
+  ]
+ }
+]
