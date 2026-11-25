@@ -737,6 +737,14 @@
         "NAM-002",
         "NAM-001"
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Setup",
+      "text": "Editing service for the R1 naming moodboards is live (Supabase tables nkdpk_pages_state and nkdpk_pages_history, Edge Function nkdpk-pages, page r1-naming-moodboards). The page now reads its published version from the service.",
+      "refs": [
+        "NAM-002"
+      ]
     }
   ]
 }
