@@ -1,0 +1,961 @@
+{
+ "page": "Ways In",
+ "project": "NakedPak",
+ "date": "2026-11-25",
+ "url": "https://jalulia.github.io/nkdpk/05-identity/R1/NKP-ID-R1-ways-in-v01/",
+ "method": "Start from one reference, name what it cues, list its style elements, state the move for NakedPak, then show related work.",
+ "fields": {
+  "cues": "what the reference signals, in one line",
+  "elements": "style elements to take from it",
+  "move": "what NakedPak does with it",
+  "seen_in": "brands shown on the board"
+ },
+ "ways": [
+  {
+   "code": "01",
+   "group": "The product",
+   "reference": "The Sheet",
+   "cues": "Herbs, chili and spice set into a clear sheet: the wrapper is the first ingredient you see.",
+   "elements": [
+    "Flecks set in, not printed",
+    "Green needles, red chips, golden dust",
+    "Light through the sheet",
+    "Noodles seen through the wrap",
+    "Torn and cut edges"
+   ],
+   "move": "Let the flecks carry each flavor’s color and pattern. In testing, ink printed on the film read as unsafe.",
+   "seen_in": [
+    "NakedPak prototypes"
+   ],
+   "images": [
+    {
+     "caption": "NakedPak prototype sheet with red chili flecks",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-07.jpg",
+     "source": ""
+    },
+    {
+     "caption": "NakedPak prototype sheet with green herb flecks",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-06.jpg",
+     "source": ""
+    },
+    {
+     "caption": "NakedPak prototype golden sheet",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-08.jpg",
+     "source": ""
+    },
+    {
+     "caption": "Two NakedPak portions, herb and chili films",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-04.jpg",
+     "source": ""
+    },
+    {
+     "caption": "NakedPak noodles in a herb-flecked film",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-01.jpg",
+     "source": ""
+    },
+    {
+     "caption": "NakedPak noodles with broth tablet and vegetables, in clear film",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-03.jpg",
+     "source": ""
+    },
+    {
+     "caption": "NakedPak noodles with green onion, in clear film",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-02.jpg",
+     "source": ""
+    },
+    {
+     "caption": "One NakedPak portion in herb film",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/product/nakedpak-prototype-05.jpg",
+     "source": ""
+    },
+    {
+     "pin": "331",
+     "caption": "Hands holding a clear, wet-looking film flecked with black seeds",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/331.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659271/"
+    },
+    {
+     "pin": "332",
+     "caption": "Two rice-paper crisps with leaves set inside, held up to a window",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/332.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659236/"
+    },
+    {
+     "pin": "177",
+     "caption": "Hands cutting translucent tinted sheets hung on rods",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/177.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049681617/"
+    }
+   ]
+  },
+  {
+   "code": "02",
+   "group": "The product",
+   "reference": "Paper, Windows and Cutouts",
+   "cues": "Outer packs that read as food too: wax paper, kraft, frosted film, windows and cut shapes.",
+   "elements": [
+    "Wax-paper candy bags",
+    "Kraft sachets",
+    "Frosted and clear windows",
+    "Die-cut shapes",
+    "Trays and folds that do a job"
+   ],
+   "move": "The outer box has to keep moisture out. Test a lined paper bag, or a box with a window cut to the sheet, so the flecks show the flavor first.",
+   "seen_in": [
+    "Sockerbit",
+    "BLO*R",
+    "Brik",
+    "Brulerie du Quai",
+    "Rana",
+    "Basao"
+   ],
+   "images": [
+    {
+     "pin": "049",
+     "caption": "Sockerbit Swedish candy bag, sour hearts",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/049.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690817/"
+    },
+    {
+     "pin": "050",
+     "caption": "Sockerbit candy bag, red apples",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/050.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690816/"
+    },
+    {
+     "pin": "054",
+     "caption": "BLO*R drip coffee box with a cloud window",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/054.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690806/"
+    },
+    {
+     "pin": "334",
+     "caption": "Brik \"terrazzo\" chocolate bars in white card sleeves with square windows",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/334.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659229/"
+    },
+    {
+     "pin": "109",
+     "caption": "Brulerie du Quai coffee pouch, frosted green",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/109.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688473/"
+    },
+    {
+     "pin": "192",
+     "caption": "A gazpacho carton pulled open into a chain of paper vegetables",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/192.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678339/"
+    },
+    {
+     "pin": "112",
+     "caption": "Close view of orange die-cut board with cream spatter",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/112.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688466/"
+    },
+    {
+     "pin": "027",
+     "caption": "Tomato seed packets built like matchbooks",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/027.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690858/"
+    },
+    {
+     "pin": "322",
+     "caption": "Sunflower seed box with a built-in tray for the husks",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/322.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678080/"
+    },
+    {
+     "pin": "058",
+     "caption": "Rana limited-edition ravioli pouch on paper cutouts",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/058.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690773/"
+    },
+    {
+     "pin": "015",
+     "caption": "Wordmark \"Sometimes\" printed on flecked paper",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/015.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690878/"
+    },
+    {
+     "pin": "084",
+     "caption": "Phil's Finest sausages and beef in clear packs with round labels",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/084.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690729/"
+    },
+    {
+     "pin": "187",
+     "caption": "Beck's Broth sachets, scattered",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/187.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678547/"
+    },
+    {
+     "pin": "333",
+     "caption": "Basao tea, kraft boxes of white sachets filed in rows",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/333.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659230/"
+    }
+   ]
+  },
+  {
+   "code": "03",
+   "group": "From the kickoff",
+   "reference": "Hot Pocket",
+   "cues": "Read it as comfort made modern, not as the box: a wrapped, no-thought meal from a brand that feels like childhood.",
+   "elements": [
+    "Fat soft lettering",
+    "Wrapper and pint cartoons",
+    "One loud color per flavor",
+    "Names people repeat",
+    "Old candy-wrapper layouts, printed clean"
+   ],
+   "move": "Take retro comfort’s warmth and naming, print it in clean modern color, and skip the distressed vintage finish.",
+   "seen_in": [
+    "Bazooka",
+    "Ben & Jerry’s",
+    "Stiller’s",
+    "Oaten",
+    "Goodles",
+    "Tasties",
+    "Frylo’s",
+    "Strangers"
+   ],
+   "images": [
+    {
+     "caption": "Ben & Jerry’s Americone Dream pint",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/benjerrys-americone-dream-pint.jpg",
+     "source": "https://www.benjerry.com/flavors"
+    },
+    {
+     "caption": "Bazooka bubble gum, original pack",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/bazooka-original-pack.jpg",
+     "source": "https://www.bazookacandybrands.com/brands/"
+    },
+    {
+     "pin": "012",
+     "caption": "Bazook typeface promo with a tiled candy-wrapper pattern",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/012.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690884/"
+    },
+    {
+     "caption": "Ben & Jerry’s Razz Up! pint",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/benjerrys-razz-up-pint.jpg",
+     "source": "https://www.benjerry.com/flavors"
+    },
+    {
+     "caption": "Stiller’s cans on ice",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/stillers-05.jpg",
+     "source": "https://takeagander.com/project/stillers"
+    },
+    {
+     "pin": "266",
+     "caption": "Stiller's soda pouring from a can into a glass with cherries",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/266.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678227/"
+    },
+    {
+     "pin": "024",
+     "caption": "Oaten porridge key visual, \"Oats, but cooler.\"",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/024.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690863/"
+    },
+    {
+     "pin": "297",
+     "caption": "Oaten porridge pouch held up on an open hand against sky",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/297.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678183/"
+    },
+    {
+     "caption": "Goodles boxes, stacked on orange",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/69fcb973-3eca-4cb0-80d7-68f35d2c244e",
+     "source": "https://www.goodles.com/"
+    },
+    {
+     "pin": "295",
+     "caption": "Goodles boxes tiled on a slant under a pink burst",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/295.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678189/"
+    },
+    {
+     "pin": "018",
+     "caption": "Nine parody chewing-gum packs on black",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/018.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690870/"
+    },
+    {
+     "pin": "092",
+     "caption": "Tasties cereal boxes stacked, in flash",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/092.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690716/"
+    },
+    {
+     "pin": "236",
+     "caption": "Frylo's Fryums box with a cartoon kid and a plate of heart-shaped snacks",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/236.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678311/"
+    },
+    {
+     "pin": "105",
+     "caption": "Strangers hard-candy boxes piled under a spotlight",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/105.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688525/"
+    }
+   ]
+  },
+  {
+   "code": "04",
+   "group": "From the kickoff",
+   "reference": "Graza, Sizzle & Drizzle",
+   "cues": "You learn the product by saying its name: Sizzle is for cooking, Drizzle is for finishing.",
+   "elements": [
+    "Two products named by use",
+    "Squeeze-bottle silhouette",
+    "Lime and acid green on deep green",
+    "Soft wavy serif caps",
+    "Line-drawn cooks doing the job"
+   ],
+   "move": "Name the sheet for the job it does in the pot, the way “spice wrapper” came up at the kickoff.",
+   "seen_in": [
+    "Graza",
+    "Jooks on You",
+    "Hot Shot"
+   ],
+   "images": [
+    {
+     "caption": "Graza Sizzle and Drizzle bottles",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/graza-sizzle-drizzle-pair.jpg",
+     "source": "https://www.graza.co/products/drizzle-sizzle-glass-1-set"
+    },
+    {
+     "caption": "Sizzle poured into a pan",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/graza-sizzle-in-pan.jpg",
+     "source": "https://www.graza.co/products/drizzle-sizzle-glass-1-set"
+    },
+    {
+     "caption": "Drizzle over a salad",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/graza-drizzle-on-salad.jpg",
+     "source": "https://www.graza.co/products/drizzle-sizzle-glass-1-set"
+    },
+    {
+     "caption": "Graza Box O’ Sizzle",
+     "src": "https://jalulia.github.io/nkdpk/assets/ways-in/brands/graza-box-o-sizzle.jpg",
+     "source": "https://www.graza.co/products/sizzle-bag-in-box"
+    },
+    {
+     "caption": "Sizzle cans",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/6498222b-8bc9-4ec7-a389-de99075e26b7",
+     "source": "https://www.takeagander.com/project/graza"
+    },
+    {
+     "caption": "Drizzle bottles lying in a row",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/8d7f86c7-4209-4747-8d07-41b31fddf4e1",
+     "source": "https://www.takeagander.com/project/graza"
+    },
+    {
+     "caption": "Graza line characters",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/fcbdbf75-1996-49a6-8991-24dc8b1cd337",
+     "source": "https://www.takeagander.com/project/graza"
+    },
+    {
+     "pin": "327",
+     "caption": "Graza \"Super Gift Set\" box, open",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/327.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678054/"
+    },
+    {
+     "pin": "132",
+     "caption": "Graza \"Drizzle\" and \"Sizzle\" gift box",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/132.jpg",
+     "source": "https://www.pinterest.com/pin/Aeev2vEFX6cJfqb-pklJ8D-HoXJv843T-wq5Ljy8t4mhqon5O_Kls20HkbiQ_Lwd9TQxuCupp_WjEIS8V8Vw_JQ/"
+    },
+    {
+     "pin": "142",
+     "caption": "Jooks on You sauce labels, three",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/142.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049682275/"
+    },
+    {
+     "pin": "296",
+     "caption": "\"Hot Shot\" bottle labels as flat shapes",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/296.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678185/"
+    },
+    {
+     "pin": "207",
+     "caption": "Old drawing, a bottle with a face pouring a drop into a bowl",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/207.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678423/"
+    }
+   ]
+  },
+  {
+   "code": "05",
+   "group": "From the kickoff",
+   "reference": "Heyday",
+   "cues": "The canned staple everyone trusts, with a loud wordmark and one color per recipe.",
+   "elements": [
+    "Canning-label wordmark",
+    "Recipe name as the hero",
+    "One color per recipe",
+    "The range stacked or tumbling",
+    "Tile and counter settings"
+   ],
+   "move": "Treat the box like a pantry can: the dish name large, one color per recipe, the range shown as a stack.",
+   "seen_in": [
+    "Heyday Canning",
+    "Fond",
+    "Figlio Bastardo",
+    "Long Weekend",
+    "Pikora",
+    "Nooish"
+   ],
+   "images": [
+    {
+     "caption": "Heyday cans stacked on tile",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/1752da4d-e598-40ca-81b6-bc31616ff1e6",
+     "source": "https://www.weareoutline.com/case-studies/heyday-canning-co"
+    },
+    {
+     "pin": "298",
+     "caption": "Heyday Canning Co. bean cans tumbling on pale blue",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/298.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678179/"
+    },
+    {
+     "pin": "223",
+     "caption": "Two Heyday cans on a peach-tiled shelf",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/223.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678265/"
+    },
+    {
+     "pin": "300",
+     "caption": "Heyday cans on blue tile with a red tile wall",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/300.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678177/"
+    },
+    {
+     "pin": "301",
+     "caption": "Heyday Canning Co. wordmark on yellow",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/301.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678176/"
+    },
+    {
+     "pin": "299",
+     "caption": "\"Heyday\" sachets, orange kraft, piled",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/299.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678178/"
+    },
+    {
+     "pin": "185",
+     "caption": "Fond bone broth jar, close",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/185.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678552/"
+    },
+    {
+     "pin": "186",
+     "caption": "Figlio Bastardo bone broth cans under a giant tomato",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/186.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678550/"
+    },
+    {
+     "pin": "047",
+     "caption": "Long Weekend tomato bisque cups stacked among tomatoes",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/047.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690825/"
+    },
+    {
+     "pin": "025",
+     "caption": "Pikora instant bone broth, three tall cartons",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/025.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690862/"
+    },
+    {
+     "pin": "254",
+     "caption": "Nooish matzo ball soup cups tiled on a slant",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/254.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678249/"
+    }
+   ]
+  },
+  {
+   "code": "06",
+   "group": "From the kickoff",
+   "reference": "Lush",
+   "cues": "Drop it in water and something worth filming happens. Boil-in-bag rice sets the same habit: drop the portion in, don’t think.",
+   "elements": [
+    "The drop as the hero shot",
+    "Color blooming through water",
+    "Real time, one take",
+    "Sold naked, no wrap",
+    "Close-ups of the broth"
+   ],
+   "move": "Film a sheet dissolving in one real take. Testers took the current product videos for AI.",
+   "seen_in": [
+    "The Qi",
+    "Long Weekend",
+    "Wild Grove"
+   ],
+   "images": [
+    {
+     "pin": "180",
+     "caption": "The Qi Blooming Tea with a bulb unwrapped and one bloomed in a glass pitcher",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/180.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049679005/"
+    },
+    {
+     "pin": "251",
+     "caption": "Long Weekend minestrone, water pouring in, a drawn onion in the cup",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/251.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678260/"
+    },
+    {
+     "pin": "114",
+     "caption": "The word \"Bubble\" made of foam among soap bubbles",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/114.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688461/"
+    },
+    {
+     "pin": "113",
+     "caption": "Old book cover, chrome bubbles on black",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/113.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688462/"
+    },
+    {
+     "pin": "044",
+     "caption": "Wild Grove soap boxes on a green checker floor",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/044.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690837/"
+    },
+    {
+     "pin": "131",
+     "caption": "Backlit slices of ginger",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/131.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049682454/"
+    },
+    {
+     "pin": "133",
+     "caption": "Macro of garlic, yuzu, green onion in oil, hand-labeled",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/133.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049682452/"
+    },
+    {
+     "pin": "097",
+     "caption": "Macro of beef and vegetable broth",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/097.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688581/"
+    },
+    {
+     "pin": "096",
+     "caption": "Macro of instant noodles in chili broth",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/096.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049688594/"
+    }
+   ]
+  },
+  {
+   "code": "07",
+   "group": "Our additions",
+   "reference": "Riff",
+   "cues": "A chef’s dinner sold like cereal: white carton, a big wordmark, the finished bowl on the front.",
+   "elements": [
+    "Cereal-box format for dinner",
+    "White carton, navy wordmark",
+    "Finished bowl as the hero",
+    "Raw ingredients around the box",
+    "Wordmark big enough for a wall"
+   ],
+   "move": "Put the finished bowl on the front panel, and draw the wordmark at billboard size first.",
+   "seen_in": [
+    "Riff",
+    "Plately",
+    "Holyfoods",
+    "Ramen Rebel",
+    "Pick Me Up"
+   ],
+   "images": [
+    {
+     "pin": "275",
+     "caption": "Riff box in a basket of vegetables",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/275.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678214/"
+    },
+    {
+     "pin": "278",
+     "caption": "Riff painted wall sign, \"for dinner\"",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/278.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678211/"
+    },
+    {
+     "pin": "277",
+     "caption": "Five Riff boxes on a kitchen counter",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/277.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678212/"
+    },
+    {
+     "pin": "276",
+     "caption": "Riff sesame ginger noodles with its raw ingredients laid out",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/276.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678213/"
+    },
+    {
+     "pin": "329",
+     "caption": "Riff spicy tomato rigatoni box, front",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/329.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678046/"
+    },
+    {
+     "pin": "175",
+     "caption": "Riff meal kit box on yellow",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/175.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049682300/"
+    },
+    {
+     "pin": "321",
+     "caption": "Plately meal kit box, front and side",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/321.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678084/"
+    },
+    {
+     "pin": "339",
+     "caption": "Plately poster, three pot-shaped packs with forks",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/339.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659082/"
+    },
+    {
+     "pin": "340",
+     "caption": "Plately flyer held in a hand",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/340.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659081/"
+    },
+    {
+     "pin": "243",
+     "caption": "Holyfoods risotto boxes on yellow",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/243.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678290/"
+    },
+    {
+     "pin": "140",
+     "caption": "Ramen Rebel kit box with a bowl of ramen and a patterned cloth",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/140.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049682292/"
+    },
+    {
+     "pin": "159",
+     "caption": "Pick Me Up tomato soup bowl with a paper band, from above",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/159.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049682384/"
+    }
+   ]
+  },
+  {
+   "code": "08",
+   "group": "Our additions",
+   "reference": "Rose Delights",
+   "cues": "Small, exact boxes where the print comes from the food and the finish does the talking.",
+   "elements": [
+    "One flat color per effect",
+    "Fronts made from the food: seeds, dots",
+    "Emboss and spot gloss instead of claims",
+    "Product stacked on what it tastes like",
+    "Numbered drops with new cover art"
+   ],
+   "move": "Turn each flavor’s sheet into its box front, and let emboss and gloss carry the premium.",
+   "seen_in": [
+    "Rose Los Angeles",
+    "The Qi",
+    "Loewe",
+    "Houseplant"
+   ],
+   "images": [
+    {
+     "caption": "Rose Delights, four boxes, color by effect",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/rose-01.jpg",
+     "source": "https://roselosangeles.com/collections/delights"
+    },
+    {
+     "caption": "Rose Delights Sour Grape box",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/rose-02.jpg",
+     "source": "https://roselosangeles.com/collections/delights"
+    },
+    {
+     "caption": "Rose Delights cubes on an apple",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/rose-03.jpg",
+     "source": "https://roselosangeles.com/collections/delights"
+    },
+    {
+     "caption": "Rose Delights cubes on a cloud",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/rose-04.jpg",
+     "source": "https://roselosangeles.com/collections/delights"
+    },
+    {
+     "caption": "Rose seasonal box, Watermelon",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/rose-06.jpg",
+     "source": "https://roselosangeles.com/"
+    },
+    {
+     "pin": "303",
+     "caption": "Rose Delights box, white dots on black",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/303.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678174/"
+    },
+    {
+     "pin": "235",
+     "caption": "A red box printed with glossy black seeds, on a woodcut page",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/235.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678312/"
+    },
+    {
+     "caption": "Rose Delights, a cube held to the light",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/df178640-1a60-42ab-b7d6-a40e1474ab92",
+     "source": "https://mouthwash.studio/project/rose-delights/"
+    },
+    {
+     "pin": "179",
+     "caption": "The Qi Blooming Tea, three boxes",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/179.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049679007/"
+    },
+    {
+     "pin": "078",
+     "caption": "Loewe scented wax boxes, five, scattered on white",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/078.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049690740/"
+    },
+    {
+     "pin": "265",
+     "caption": "Houseplant blackberry can and box with a glass of ice",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/265.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678228/"
+    }
+   ]
+  },
+  {
+   "code": "09",
+   "group": "Our additions",
+   "reference": "Wobble",
+   "cues": "A retro pantry mix with a jelly-mold wordmark, six named colors and the steps drawn as icons.",
+   "elements": [
+    "Jelly-mold wordmark",
+    "Six named colors",
+    "Steps as icons on the back panel",
+    "Dessert shot as sculpture on a stand",
+    "Retro shapes, clean modern print"
+   ],
+   "move": "Draw drop, stir, eat as icons inside the lid, and shoot the finished bowl like a centerpiece.",
+   "seen_in": [
+    "Wobble"
+   ],
+   "images": [
+    {
+     "caption": "Wobble Mango box, front",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/wobble-03.jpg",
+     "source": "https://benitastudios.com/work/wobble"
+    },
+    {
+     "caption": "Wobble step drawings",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/wobble-05.jpg",
+     "source": "https://benitastudios.com/work/wobble"
+    },
+    {
+     "caption": "Wobble back panel",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/wobble-04.jpg",
+     "source": "https://benitastudios.com/work/wobble"
+    },
+    {
+     "caption": "Wobble brand guide: logos, color, type",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/wobble-01.jpg",
+     "source": "https://benitastudios.com/work/wobble"
+    },
+    {
+     "caption": "Wobble, three flavors stacked",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/wobble-02.jpg",
+     "source": "https://benitastudios.com/work/wobble"
+    },
+    {
+     "caption": "Wobble Strawberry box on red",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/563f866c-9ec3-41ec-a0bb-c9ab042bbbc5",
+     "source": "https://eatwobble.com/"
+    },
+    {
+     "caption": "Wobble jelly on a stand",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/wobble-06.jpg",
+     "source": "https://benitastudios.com/work/wobble"
+    },
+    {
+     "caption": "Wobble jelly cubes, stacked",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/732c7394-3c23-4c5c-bc53-be723b5f536e",
+     "source": "https://eatwobble.com/"
+    },
+    {
+     "caption": "Wobble jellies in paper cups",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/cce820b7-864c-4ea0-9a4f-e0a1da75c071",
+     "source": "https://eatwobble.com/"
+    },
+    {
+     "caption": "A Wobble jelly mid-wobble",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/616fe781-2436-4585-9bce-768228394268",
+     "source": "https://eatwobble.com/"
+    }
+   ]
+  },
+  {
+   "code": "10",
+   "group": "Our additions",
+   "reference": "Cometeer",
+   "cues": "A frozen puck that dissolves in hot water, shot like a specimen and sold as a color-coded set.",
+   "elements": [
+    "The dissolve as the hero",
+    "Specimen photos on gradient skies",
+    "One box color per coffee",
+    "“Melt, mix, enjoy” set in a ring",
+    "Retro-futurist sun and sky"
+   ],
+   "move": "Show the one-to-two-minute stir with the same precision, and give each recipe its own box color.",
+   "seen_in": [
+    "Cometeer"
+   ],
+   "images": [
+    {
+     "pin": "315",
+     "caption": "A capsule tipped over a glass mug, the frozen puck dissolving in hot water",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/315.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678126/"
+    },
+    {
+     "pin": "316",
+     "caption": "Coffee pouring from a capsule into a glass of ice, swirling",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/316.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678125/"
+    },
+    {
+     "pin": "313",
+     "caption": "A frozen coffee puck held between finger and thumb",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/313.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678130/"
+    },
+    {
+     "pin": "271",
+     "caption": "A single coffee bean held in tweezers",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/271.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678219/"
+    },
+    {
+     "caption": "Cometeer capsule going into hot water",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/cometeer-03.jpg",
+     "source": "https://www.creech.co/projects/cometeer"
+    },
+    {
+     "pin": "270",
+     "caption": "Cometeer frozen capsules in a box, frosted",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/270.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678220/"
+    },
+    {
+     "pin": "273",
+     "caption": "Cometeer capsule lids, many colors, piled",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/273.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678217/"
+    },
+    {
+     "pin": "272",
+     "caption": "Cometeer cartons stacked, blue and red",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/272.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678218/"
+    },
+    {
+     "caption": "Cometeer retail boxes",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/cometeer-01.jpg",
+     "source": "https://www.creech.co/projects/cometeer"
+    },
+    {
+     "pin": "317",
+     "caption": "Cometeer carton floating on a dark green gradient",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/317.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678124/"
+    },
+    {
+     "caption": "Cometeer campaign line, “Coffee from the near future”",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/brands/cometeer-06.jpg",
+     "source": "https://www.creech.co/projects/cometeer"
+    }
+   ]
+  },
+  {
+   "code": "11",
+   "group": "Our additions",
+   "reference": "Lazy Food",
+   "cues": "One pot, zero effort, said with one huge word and a pouch you can’t miss.",
+   "elements": [
+    "Type as a wall",
+    "Pouch with a red pot",
+    "Sauce dripping off the pack",
+    "Doodled pot characters",
+    "Big words over food photos"
+   ],
+   "move": "Pick one word per flavor and set it as large as the panel allows.",
+   "seen_in": [
+    "Lazy Food",
+    "Papa Pho",
+    "Itsu",
+    "Organic Basics"
+   ],
+   "images": [
+    {
+     "pin": "256",
+     "caption": "Lazy Food cacio e pepe pouch on a wall of the word \"Cheesy\"",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/256.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678239/"
+    },
+    {
+     "pin": "245",
+     "caption": "Lazy Food pouch on a bed of broccoli",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/245.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678287/"
+    },
+    {
+     "caption": "Lazy Food posters, “You need a quick fix”",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/ebb8b13c-df65-40fb-9a86-142eb6583772",
+     "source": "https://contra.com/p/LNNBlWmO-lazy-food-branding-and-packaging"
+    },
+    {
+     "caption": "Lazy Food pouches on their ingredients",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/4b4e8029-26d1-4331-8d52-f80bcb3d1fab",
+     "source": "https://contra.com/p/LNNBlWmO-lazy-food-branding-and-packaging"
+    },
+    {
+     "caption": "Lazy Food, “The Happy Pot” lettering",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/50e179bb-c34a-41a5-9a90-382b8fc6aab0",
+     "source": "https://www.flymaryfly.com/illustration/lazyfood"
+    },
+    {
+     "caption": "Lazy Food pot doodles",
+     "src": "https://ycolvxmvcmxfnuicgfay.supabase.co/functions/v1/nkdpk-boards/asset/9dd1f8ea-58f4-4e7e-a9fa-5ff13b001a0b",
+     "source": "https://www.flymaryfly.com/illustration/lazyfood"
+    },
+    {
+     "pin": "306",
+     "caption": "Papa Pho social tile, the word \"Noodles\" stacked and warped",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/306.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678171/"
+    },
+    {
+     "pin": "280",
+     "caption": "Magazine page, \"Lazy Nights\", beside a noodle macro",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/280.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678209/"
+    },
+    {
+     "pin": "304",
+     "caption": "Itsu Pot'Soup, wordmark over a bowl held in a hand",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/304.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049678173/"
+    },
+    {
+     "pin": "338",
+     "caption": "Organic Basics wordmark repeated on a slant across mint green",
+     "src": "https://jalulia.github.io/nkdpk/assets/board-read/plates/338.jpg",
+     "source": "https://www.pinterest.com/pin/2392606049659083/"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "captured": "2026-11-25",
+ "note": "Prototype photos are client-supplied (extracted from the kickoff PDF \"Impossible - Pictures\"), kept as extracted. Brand images captured for reference only.",
+ "files": [
+  {
+   "path": "product/nakedpak-prototype-01.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-02.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-03.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-04.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-05.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-06.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-07.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "product/nakedpak-prototype-08.jpg",
+   "source": "NakedPak, client-supplied prototype photo",
+   "url": ""
+  },
+  {
+   "path": "brands/graza-sizzle-drizzle-pair.jpg",
+   "source": "Graza",
+   "url": "https://cdn.shopify.com/s/files/1/0550/0003/9638/files/IMAGE_1_Duo-Glass.jpg",
+   "page": "https://www.graza.co/products/drizzle-sizzle-glass-1-set"
+  },
+  {
+   "path": "brands/graza-sizzle-in-pan.jpg",
+   "source": "Graza",
+   "page": "https://www.graza.co/products/drizzle-sizzle-glass-1-set"
+  },
+  {
+   "path": "brands/graza-drizzle-on-salad.jpg",
+   "source": "Graza",
+   "page": "https://www.graza.co/products/drizzle-sizzle-glass-1-set"
+  },
+  {
+   "path": "brands/graza-box-o-sizzle.jpg",
+   "source": "Graza",
+   "page": "https://www.graza.co/products/sizzle-bag-in-box"
+  },
+  {
+   "path": "brands/benjerrys-americone-dream-pint.jpg",
+   "source": "Ben & Jerry's flavors page, element screenshot",
+   "page": "https://www.benjerry.com/flavors"
+  },
+  {
+   "path": "brands/benjerrys-razz-up-pint.jpg",
+   "source": "Ben & Jerry's flavors page, element screenshot",
+   "page": "https://www.benjerry.com/flavors"
+  },
+  {
+   "path": "brands/bazooka-original-pack.jpg",
+   "source": "Bazooka Candy Brands",
+   "url": "https://www.bazookacandybrands.com/wp-content/uploads/2022/06/bazooka-1.png",
+   "page": "https://www.bazookacandybrands.com/brands/"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+<meta name="description" content="NakedPak ways in: eleven references, what each cues, and our move.">
+<title>Ways In · NakedPak</title>
+<link rel="preload" href="../../../assets/site/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./styles.css">
+<script type="module" src="./app.mjs"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the ways in</a>
+<header class="bar" id="bar">
+ <a class="wordmark" href="../../../">NAKEDPAK</a>
+ <nav class="bar-nav" id="bar-nav" aria-label="Groups"></nav>
+ <p class="bar-now" id="bar-now" aria-hidden="true"></p>
+ <div class="bar-actions"><span id="status" class="status" role="status" aria-live="polite"></span><button id="edit" type="button" hidden>Edit</button></div>
+</header>
+<main id="main" tabindex="-1"><div id="page"><p class="loading">Loading…</p></div></main>
+
+<div id="editbar" class="editbar" hidden>
+ <span class="eb-label">Editing draft</span><span id="eb-status" class="eb-status"></span>
+ <div class="eb-tools"><button type="button" id="undo" disabled>Undo</button><button type="button" id="redo" disabled>Redo</button><button type="button" id="versions-open">Saved versions</button><button type="button" id="export">Export JSON</button><button type="button" id="import">Import JSON</button><button type="button" id="preview">Preview</button></div>
+ <div class="eb-end"><button type="button" id="publish" class="solid">Publish</button><button type="button" id="done">Done</button></div>
+</div>
+
+<dialog id="lightbox" class="lightbox" aria-label="Image viewer" tabindex="-1">
+ <div class="lb-top"><p id="lb-where"></p><div class="lb-nav"><span id="lb-count"></span><button type="button" id="lb-prev">Previous</button><button type="button" id="lb-next">Next</button><button type="button" data-close>Close</button></div></div>
+ <figure class="lb-fig" id="lb-fig"><img id="lb-img" alt=""></figure>
+ <div class="lb-foot"><p id="lb-cap"></p><a id="lb-link" target="_blank" rel="noopener noreferrer">View pin</a></div>
+</dialog>
+
+<dialog id="imgdlg" class="sheet imgdlg" aria-labelledby="id-title">
+ <div class="id-wrap">
+  <div class="id-preview"><div class="id-frame" id="id-frame"><img id="id-img" alt=""><span id="id-dot" class="id-dot"></span></div><p class="hint">Click the picture to set the crop focus.</p></div>
+  <div class="id-fields">
+   <div class="sheet-head"><h2 id="id-title">Image</h2><button type="button" data-close>Done</button></div>
+   <p id="id-pin" class="label"></p>
+   <label><span>Caption</span><textarea id="id-caption" rows="3"></textarea></label>
+   <label><span>Alt text</span><textarea id="id-alt" rows="2"></textarea></label>
+   <label><span>Link</span><input id="id-href" type="url" placeholder="https://"></label>
+   <label><span>Fit</span><select id="id-fit"><option value="cover">Fill the tile</option><option value="contain">Show the whole image</option></select></label>
+   <div class="id-actions"><button type="button" id="id-lead">Make lead image</button><button type="button" id="id-replace-pin">Replace with a pin</button><button type="button" id="id-replace-file">Replace with a file</button><button type="button" id="id-remove" class="danger">Remove</button></div>
+  </div>
+ </div>
+</dialog>
+
+<dialog id="picker" class="sheet picker" aria-labelledby="pk-title">
+ <div class="sheet-head"><h2 id="pk-title">Add pins</h2><button type="button" data-close>Cancel</button></div>
+ <div class="pk-tools"><input id="pk-search" type="search" placeholder="Search by number or by what is in the picture" aria-label="Search pins"><label class="pk-hide"><input id="pk-hide" type="checkbox"> Hide pins already on this page</label></div>
+ <div id="pk-grid" class="pk-grid"></div>
+ <div class="pk-foot"><span id="pk-count"></span><button type="button" id="pk-add" class="solid" disabled>Add</button></div>
+</dialog>
+
+<dialog id="versions" class="sheet small" aria-labelledby="vs-title">
+ <div class="sheet-head"><h2 id="vs-title">Saved versions</h2><button type="button" data-close>Close</button></div>
+ <p class="hint">Loading a version replaces the draft. Publish when it is ready.</p>
+ <div id="vs-list"></div>
+</dialog>
+
+<dialog id="ask" class="sheet small" aria-labelledby="ask-title">
+ <form method="dialog"><h2 id="ask-title"></h2><p id="ask-copy" class="hint"></p><label id="ask-field" hidden><span id="ask-field-label"></span><input id="ask-input" type="url"></label>
+ <div class="sheet-actions"><button value="cancel">Cancel</button><button value="ok" class="solid" id="ask-ok">Continue</button></div></form>
+</dialog>
+
+<input id="files" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple hidden>
+<input id="import-file" type="file" accept="application/json,.json" hidden>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p class="loading">Turn on JavaScript to see this page.</p></noscript>
+</body>
+</html>

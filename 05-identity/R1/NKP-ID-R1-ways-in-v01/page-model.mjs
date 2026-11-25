@@ -1,0 +1,52 @@
+// Shared by the editable NakedPak pages and the nkdpk-pages Edge Function (the function holds the newest copy).
+// Fields are a superset: each page uses the ones it renders; elements and move were added for Ways In.
+export const VERSION = 1;
+export const LABEL_KEYS = ['names', 'brands', 'elements', 'move'];
+const plain = v => !!v && typeof v === 'object' && !Array.isArray(v);
+const str = (v, n = 4000) => typeof v === 'string' ? v.slice(0, n) : '';
+const num = (v, min, max, fallback) => Number.isFinite(Number(v)) ? Math.min(max, Math.max(min, Number(v))) : fallback;
+export function safeURL(value, {image = false} = {}) {
+  if (!value || typeof value !== 'string') return '';
+  try {
+    const u = new URL(value);
+    if (u.protocol !== 'https:' || u.username || u.password) return '';
+    if (image && /[<>"'\s]/.test(value)) return '';
+    return u.href;
+  } catch { return ''; }
+}
+export function validatePage(input) {
+  if (!plain(input) || input.version !== VERSION || !Array.isArray(input.territories) || input.territories.length > 8) throw Error('This is not a valid moodboard page.');
+  const ids = new Set();
+  const id = value => {
+    if (typeof value !== 'string' || !/^[a-zA-Z0-9_-]{1,100}$/.test(value) || ids.has(value)) throw Error('Every item needs a unique ID.');
+    ids.add(value); return value;
+  };
+  let total = 0;
+  const image = i => {
+    if (!plain(i) || ++total > 600) throw Error('This page has too many images.');
+    const src = safeURL(i.src, {image: true});
+    if (!src) throw Error('Images need a valid HTTPS source.');
+    const assetId = str(i.assetId, 50);
+    if (assetId && !/^[0-9a-f-]{36}$/i.test(assetId)) throw Error('Invalid uploaded image.');
+    return {id: id(i.id), ...(assetId ? {assetId} : {}), pin: str(i.pin, 12), src, thumb: safeURL(i.thumb, {image: true}),
+      href: safeURL(i.href), caption: str(i.caption, 1000), alt: str(i.alt, 500), aspect: num(i.aspect, 0.2, 5, 1),
+      fit: i.fit === 'contain' ? 'contain' : 'cover', fx: num(i.fx, 0, 100, 50), fy: num(i.fy, 0, 100, 50)};
+  };
+  const labels = {};
+  for (const k of LABEL_KEYS) labels[k] = str(input.labels?.[k], 60);
+  return {
+    version: VERSION, title: str(input.title, 160), intro: str(input.intro, 600), date: str(input.date, 80), labels,
+    territories: input.territories.map(t => {
+      if (!plain(t) || !Array.isArray(t.ways) || t.ways.length > 8) throw Error('Invalid territory.');
+      return {id: id(t.id), number: str(t.number, 12), name: str(t.name, 160), summary: str(t.summary, 600), names: str(t.names, 1000),
+        ways: t.ways.map(w => {
+          if (!plain(w) || !Array.isArray(w.images) || w.images.length > 40) throw Error('A board can hold up to 40 images.');
+          return {id: id(w.id), letter: str(w.letter, 6), title: str(w.title, 160), note: str(w.note, 600), brands: str(w.brands, 600), elements: str(w.elements, 1000), move: str(w.move, 600),
+            lead: w.lead !== false, images: w.images.map(image)};
+        })};
+    })
+  };
+}
+export function assetIds(doc) {
+  return [...new Set(doc.territories.flatMap(t => t.ways.flatMap(w => w.images.map(i => i.assetId).filter(Boolean))))];
+}
