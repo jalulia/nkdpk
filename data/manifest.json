@@ -531,7 +531,7 @@
       "id": "NAM-001",
       "section": "naming",
       "kind": "presentation",
-      "status": "current",
+      "status": "superseded",
       "category": "Moodboards",
       "title": "R1 naming moodboards",
       "tagline": "Three naming territories, each read as a visual territory with three ways in.",
@@ -588,6 +588,58 @@
         },
         {
           "path": "04-naming/R1/NKP-NAM-R1-moodboards-v01/styles.css",
+          "caption": "Page styles"
+        }
+      ],
+      "capture": ""
+    },
+    {
+      "id": "NAM-002",
+      "section": "naming",
+      "kind": "presentation",
+      "status": "current",
+      "category": "Moodboards",
+      "title": "R1 naming moodboards v02",
+      "tagline": "Three boards per naming territory, named by kind and medium.",
+      "description": "One long scroll. Each naming territory has three boards: Kitchen Alchemy (Macro Texture, Color-Field Still Life, Surreal Collage), All Together Now (Type in the Food, Food Illustration, Table Photography), Delicious Ritual (Label Typography, Spot Illustration, Demonstration Photography). 101 pins. Editable in place.",
+      "date": "2026-11-24",
+      "added_by": "Claude",
+      "source": {
+        "name": "HTML, editable",
+        "url": "04-naming/R1/NKP-NAM-R1-moodboards-v02/index.html"
+      },
+      "note": "you need to serious /de-llm-writing writing this. like, this could just be 03 B - Friendly Illustration -- probably soemthing better but tis also a categorical ontological taxonomical library thing you need to revist a bit. The typeography hierarchy is a little hard to follow. Simplefy. Clarify. Make the UX pleasent and fluid, This is about grouping the images in smart actionable ways.",
+      "relevance": "Groups the references by what a designer would make (medium and treatment), so each territory can be briefed and judged across three concrete directions.",
+      "tags": [
+        "naming",
+        "R1",
+        "moodboards",
+        "territories",
+        "editable"
+      ],
+      "files": [
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v02/index.html",
+          "caption": "R1 naming moodboards v02 (page)"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v02/content.json",
+          "caption": "Page content as built (JSON)"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v02/pins.json",
+          "caption": "Pin catalog for the editor (JSON)"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v02/app.mjs",
+          "caption": "Page and editor script"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v02/page-model.mjs",
+          "caption": "Page schema, shared with the nkdpk-pages function"
+        },
+        {
+          "path": "04-naming/R1/NKP-NAM-R1-moodboards-v02/styles.css",
           "caption": "Page styles"
         }
       ],
@@ -674,6 +726,15 @@
       "type": "Added",
       "text": "R1 naming moodboards added to Naming: three territories, nine ways in, 106 pins. Page and editor in the repo; the editing service (nkdpk-pages) is in supabase/.",
       "refs": [
+        "NAM-001"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "Feedback",
+      "text": "R1 naming moodboards v02: boards renamed by kind and medium, copy cut to one line per board, one type scale, cover and Sam references removed. v01 marked superseded.",
+      "refs": [
+        "NAM-002",
         "NAM-001"
       ]
     }

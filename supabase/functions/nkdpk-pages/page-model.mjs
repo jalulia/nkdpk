@@ -1,6 +1,6 @@
 // Shared by the page and the nkdpk-pages Edge Function. Keep the two copies identical.
 export const VERSION = 1;
-export const LABEL_KEYS = ['naming', 'visual', 'names', 'how', 'why', 'brands', 'quoteSource', 'contents', 'wayIn'];
+export const LABEL_KEYS = ['names', 'brands'];
 const plain = v => !!v && typeof v === 'object' && !Array.isArray(v);
 const str = (v, n = 4000) => typeof v === 'string' ? v.slice(0, n) : '';
 const num = (v, min, max, fallback) => Number.isFinite(Number(v)) ? Math.min(max, Math.max(min, Number(v))) : fallback;
@@ -32,18 +32,16 @@ export function validatePage(input) {
       fit: i.fit === 'contain' ? 'contain' : 'cover', fx: num(i.fx, 0, 100, 50), fy: num(i.fy, 0, 100, 50)};
   };
   const labels = {};
-  for (const k of LABEL_KEYS) labels[k] = str(input.labels?.[k], 120);
+  for (const k of LABEL_KEYS) labels[k] = str(input.labels?.[k], 60);
   return {
-    version: VERSION, title: str(input.title, 160), kicker: str(input.kicker, 160), date: str(input.date, 80),
-    headline: str(input.headline, 300), lede: str(input.lede, 1500), note: str(input.note, 1500), footer: str(input.footer, 1000), labels,
+    version: VERSION, title: str(input.title, 160), intro: str(input.intro, 600), date: str(input.date, 80), labels,
     territories: input.territories.map(t => {
       if (!plain(t) || !Array.isArray(t.ways) || t.ways.length > 8) throw Error('Invalid territory.');
-      return {id: id(t.id), number: str(t.number, 12), name: str(t.name, 160), visual: str(t.visual, 160), quote: str(t.quote, 3000),
-        thesis: str(t.thesis, 2000), names: str(t.names, 1000),
+      return {id: id(t.id), number: str(t.number, 12), name: str(t.name, 160), summary: str(t.summary, 600), names: str(t.names, 1000),
         ways: t.ways.map(w => {
-          if (!plain(w) || !Array.isArray(w.images) || w.images.length > 40) throw Error('A way in can hold up to 40 images.');
-          return {id: id(w.id), letter: str(w.letter, 6), title: str(w.title, 160), register: str(w.register, 160), how: str(w.how, 2000),
-            why: str(w.why, 2000), brands: str(w.brands, 600), lead: w.lead !== false, images: w.images.map(image)};
+          if (!plain(w) || !Array.isArray(w.images) || w.images.length > 40) throw Error('A board can hold up to 40 images.');
+          return {id: id(w.id), letter: str(w.letter, 6), title: str(w.title, 160), note: str(w.note, 600), brands: str(w.brands, 600),
+            lead: w.lead !== false, images: w.images.map(image)};
         })};
     })
   };
